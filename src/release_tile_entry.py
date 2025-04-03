@@ -166,14 +166,18 @@ if __name__ == "__main__":
 
     session_adjusted_location_files = []
     all_params_files = []
+    location_inputs_files = []
     for file in os.listdir(folder_path):
         if "session_adjusted_location" in file:
             session_adjusted_location_files.append(file)
         if "all_params_file" in file:
             all_params_files.append(file)
+        if "location_inputs" in file:
+            location_inputs_files.append(file)
 
     print("number of session_adjusted_location files found = {}".format(len(session_adjusted_location_files)))
     print("number of all_params files found = {}".format(len(all_params_files)))
+    print("number of location_input files found = {}".format(len(location_inputs_files)))
 
 
 

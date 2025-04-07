@@ -28,6 +28,15 @@ if __name__ == "__main__":
     #functions
     def make_ccf_adjusted_all_params(df, all_params, ccf):
 
+        """
+        use ccf csv to make new columns in the all_params, with corrected locations, locations tile name, ccf_zaber_x, ccf_zaber_y
+
+        Args:
+        1. df = locations input file (this is saved out in each folder of session data)
+        2. all_params = this is the csv generated from the script (generate_all_params)
+        3. ccf = this is the standard reference file for the centres for 157 tiles, this is saved in the data folder of the github repo.
+        """
+
         #read the locations column fron all_params and make a list of ls and ax3 for all 16 locations
         location_val_list = all_params.locations[0]
         location_val_list = [int(x) for x in location_val_list.strip('[]').split(',')]
@@ -197,9 +206,12 @@ if __name__ == "__main__":
 
             file_name = '{}_ccf_adj_all_params.csv'.format(file_timestring)
             folder_location = output_folder_path
+            print(folder_location)
+
+            file_path = os.path.join(folder_location, file_name)
 
             # Save the dataframe as a CSV file
-            ccf_adjusted_all_params.to_csv(folder_location + file_name, index=False)
+            ccf_adjusted_all_params.to_csv(file_path, index=False)
 
 
 

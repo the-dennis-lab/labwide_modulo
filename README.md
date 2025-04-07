@@ -1,2 +1,2 @@
-# labwide_modulo-data
+# labwide_modulo
 for analyzing rigdata

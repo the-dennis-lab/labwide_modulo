@@ -152,35 +152,37 @@ def add_locations(df: pd.DataFrame, locations_file: pd.DataFrame) -> pd.DataFram
 
 # File Processing Functions
 
-def find_matching_file(file_list: list, file_timestring: str, search_depth: int = 3) -> tuple:
+
+def find_matching_file(file_list: list, file_timestring: str, search_depth: int = 4) -> tuple:
     """
     Find the best-matching file in file_list based on a timestamp string, with fallback to partial matches.
+    Progressively shortens the timestring from the end until a match is found.
     Returns a tuple (matching_files, good_idx).
-
     Args:
         file_list: List of available files
         file_timestring: Target timestamp string to match
-        search_depth: Number of attempts with shortened timestring to try
-
+        search_depth: Maximum number of characters to remove from the end
     Returns:
         Tuple of (matching_files, good_idx)
     """
     # Try exact match first
     matching_files = [file for file in file_list if file_timestring in file]
-
-    # Try shortened timestring if no exact match
-    for i in range(1, search_depth + 1):
-        if not matching_files:
-            shortened_timestring = file_timestring[:min(len(file_timestring), 5-i)]
-            matching_files = [file for file in file_list if shortened_timestring in file]
-            if matching_files:
-                logger.info(f"Match found using shortened timestring: {shortened_timestring}")
-                break
-
-    # If files found, return the first match
     if matching_files:
+        logger.info(f"Exact match found for timestring: {file_timestring}")
         logger.info(f"current matched file and processing: {matching_files}")
         return matching_files, 0
+
+    # Progressively shorten the timestring from the end
+    for i in range(1, min(search_depth + 1, len(file_timestring))):
+        shortened_timestring = file_timestring[:-i]  # Remove i characters from the end
+        if len(shortened_timestring) == 0:  # Avoid empty string searches
+            break
+
+        matching_files = [file for file in file_list if shortened_timestring in file]
+        if matching_files:
+            logger.info(f"Match found using shortened timestring: '{shortened_timestring}' (removed {i} character{'s' if i > 1 else ''})")
+            logger.info(f"current matched file and processing: {matching_files}")
+            return matching_files, 0
 
     # No match found
     logger.warning(f"No matching file found for timestring: {file_timestring}")
@@ -710,17 +712,44 @@ def process_data(folder_path: str, output_folder: str = None) -> None:
 
                     # Process DLC nodes file if available
 
+                    # Process DLC nodes file if available - DEBUG VERSION
+                    print("DEBUG: About to process DLC nodes section")
+                    logger.info("DEBUG: About to process DLC nodes section")
+
                     dlc_nodes_filename, good_idx = find_matching_file(
                         file_categories['dlc_nodes'], file_timestring)
 
+                    print(f"DEBUG: dlc_nodes_filename = {dlc_nodes_filename}")
+                    print(f"DEBUG: good_idx = {good_idx}")
+                    logger.info(f"DEBUG: dlc_nodes_filename = {dlc_nodes_filename}")
+                    logger.info(f"DEBUG: good_idx = {good_idx}")
+
+                    # ALWAYS add the column - before any conditionals
+                    print("DEBUG: Adding dlc_node column")
+                    logger.info("DEBUG: Adding dlc_node column")
+                    zaber_dlc_file = zaber_dlc_file.copy()
+                    zaber_dlc_file['dlc_node'] = np.nan
+                    print(f"DEBUG: dlc_node column added. Columns now: {list(zaber_dlc_file.columns)}")
+                    logger.info(f"DEBUG: dlc_node column added. Columns now: {list(zaber_dlc_file.columns)}")
+
                     if good_idx != -1 and dlc_nodes_filename:
-                        dlc_nodes_file = pd.read_csv(
-                            os.path.join(folder_path, dlc_nodes_filename[0]), header=None)
-                        zaber_dlc_file = process_dlc_nodes_file(dlc_nodes_file, zaber_dlc_file)
+                        print("DEBUG: Found DLC file, processing...")
+                        logger.info("DEBUG: Found DLC file, processing...")
+                        try:
+                            dlc_nodes_file = pd.read_csv(
+                                os.path.join(folder_path, dlc_nodes_filename[0]), header=None)
+                            zaber_dlc_file = process_dlc_nodes_file(dlc_nodes_file, zaber_dlc_file)
+                            print("DEBUG: DLC file processed successfully")
+                            logger.info("DEBUG: DLC file processed successfully")
+                        except Exception as e:
+                            print(f"DEBUG: Error processing DLC file: {e}")
+                            logger.error(f"DEBUG: Error processing DLC file: {e}")
                     else:
-                        logger.info(f"No dlc_node file found to process, adding nans to dlc_node column")
-                        zaber_dlc_file = zaber_dlc_file.copy()  # Avoid SettingWithCopyWarning
-                        zaber_dlc_file.loc[:, 'dlc_node'] = np.nan
+                        print("DEBUG: No DLC file found, column remains NaN")
+                        logger.info("DEBUG: No DLC file found, column remains NaN")
+
+                    print(f"DEBUG: Final columns before saving: {list(zaber_dlc_file.columns)}")
+                    logger.info(f"DEBUG: Final columns before saving: {list(zaber_dlc_file.columns)}")
 
                     # Add location data
                     zaber_dlc_file = add_locations(zaber_dlc_file, locations_file)

@@ -204,7 +204,7 @@ def clean_locations_file(locations_file: pd.DataFrame) -> pd.DataFrame:
 
     # Limit to first 32 columns if necessary
     if len(df.columns) > 32:
-        df = df.iloc[:, :32]
+        df = df.iloc[:, :32].copy()
 
     # Convert column names to string
     df.columns = df.columns.astype(str)
@@ -212,11 +212,11 @@ def clean_locations_file(locations_file: pd.DataFrame) -> pd.DataFrame:
     # Clean and convert values in each column
     for col in df.columns:
         # Remove non-digit characters and convert to int safely
-        df.loc[:, col] = (
+        df[col] = (
             df[col]
             .astype(str)
             .str.replace(r'\D', '', regex=True)
-            .replace('', '0')  # handle empty strings after replacement
+            .replace('', '0')
             .astype(int)
         )
 
@@ -267,10 +267,10 @@ def process_cam_frame_file(cam_frame_file: pd.DataFrame, zaber_dlc_file: pd.Data
     """
     try:
         # Extract and process frame data
-        cam_frame_file = cam_frame_file[[16]]
+        cam_frame_file = cam_frame_file[[16]].copy()
         cam_frame_file.reset_index(inplace=True)
         cam_frame_file.columns = ['frame_no', 'timestamp']
-        cam_frame_file.loc[:, 'frame_no'] = cam_frame_file['frame_no'] + 1
+        cam_frame_file['frame_no'] = cam_frame_file['frame_no'] + 1
 
         # Process timestamps
         cam_frame_file = bonsai_timestamp_split(cam_frame_file)
@@ -712,44 +712,24 @@ def process_data(folder_path: str, output_folder: str = None) -> None:
 
                     # Process DLC nodes file if available
 
-                    # Process DLC nodes file if available - DEBUG VERSION
-                    print("DEBUG: About to process DLC nodes section")
-                    logger.info("DEBUG: About to process DLC nodes section")
-
+                    
                     dlc_nodes_filename, good_idx = find_matching_file(
                         file_categories['dlc_nodes'], file_timestring)
 
-                    print(f"DEBUG: dlc_nodes_filename = {dlc_nodes_filename}")
-                    print(f"DEBUG: good_idx = {good_idx}")
-                    logger.info(f"DEBUG: dlc_nodes_filename = {dlc_nodes_filename}")
-                    logger.info(f"DEBUG: good_idx = {good_idx}")
-
-                    # ALWAYS add the column - before any conditionals
-                    print("DEBUG: Adding dlc_node column")
-                    logger.info("DEBUG: Adding dlc_node column")
-                    zaber_dlc_file = zaber_dlc_file.copy()
+                    # Always add the column first
                     zaber_dlc_file['dlc_node'] = np.nan
-                    print(f"DEBUG: dlc_node column added. Columns now: {list(zaber_dlc_file.columns)}")
-                    logger.info(f"DEBUG: dlc_node column added. Columns now: {list(zaber_dlc_file.columns)}")
 
                     if good_idx != -1 and dlc_nodes_filename:
-                        print("DEBUG: Found DLC file, processing...")
-                        logger.info("DEBUG: Found DLC file, processing...")
                         try:
                             dlc_nodes_file = pd.read_csv(
                                 os.path.join(folder_path, dlc_nodes_filename[0]), header=None)
                             zaber_dlc_file = process_dlc_nodes_file(dlc_nodes_file, zaber_dlc_file)
-                            print("DEBUG: DLC file processed successfully")
-                            logger.info("DEBUG: DLC file processed successfully")
+                            logger.info(f"Successfully processed DLC nodes file: {dlc_nodes_filename[0]}")
                         except Exception as e:
-                            print(f"DEBUG: Error processing DLC file: {e}")
-                            logger.error(f"DEBUG: Error processing DLC file: {e}")
+                            logger.error(f"Error processing DLC nodes file: {e}")
+                            logger.info(f"DLC nodes file found but couldn't be processed, dlc_node column remains NaN")
                     else:
-                        print("DEBUG: No DLC file found, column remains NaN")
-                        logger.info("DEBUG: No DLC file found, column remains NaN")
-
-                    print(f"DEBUG: Final columns before saving: {list(zaber_dlc_file.columns)}")
-                    logger.info(f"DEBUG: Final columns before saving: {list(zaber_dlc_file.columns)}")
+                        logger.info(f"No dlc_node file found to process, dlc_node column set to NaN")
 
                     # Add location data
                     zaber_dlc_file = add_locations(zaber_dlc_file, locations_file)

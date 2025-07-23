@@ -177,7 +177,7 @@ def plot_release_tile_entry(df, trigger_times, file_base, foldername, ccf_locati
 # --- Main Script Execution ---
 
 def main():
-    parser = argparse.ArgumentParser(description="Process ccf_adj_all_params CSV files.")
+    parser = argparse.ArgumentParser(description="Process ccf_all_params CSV files.")
     parser.add_argument("input_folder", help="Path to the input folder containing the CSV files")
     parser.add_argument("--output_folder", default=None, help="Optional path to the output folder (defaults to input folder)")
     args = parser.parse_args()
@@ -185,7 +185,7 @@ def main():
     infolder = args.input_folder
     outfolder = args.output_folder or infolder
 
-    files = [f for f in os.listdir(infolder) if "ccf_adj_all_params" in f and f.lower().endswith('.csv')]
+    files = [f for f in os.listdir(infolder) if "ccf_all_params" in f and f.lower().endswith('.csv')]
 
     for file in files:
         df, file_base, x, y = load_ccf_data(file, infolder)

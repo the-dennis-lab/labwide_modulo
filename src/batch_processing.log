@@ -7263,3 +7263,1364 @@
 2025-07-23 12:43:27,714 - INFO - Output folder: Results will be saved in each respective subfolder
 2025-07-23 12:43:27,715 - INFO - Timeout per subfolder: 300 seconds
 2025-07-23 12:43:27,715 - INFO - Found processing script at: C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py
+2025-07-28 12:46:57,823 - INFO - Starting batch processing
+2025-07-28 12:46:57,824 - INFO - Parent folder: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p34p35p36p37p38
+2025-07-28 12:46:57,825 - INFO - Output folder: Results will be saved in each respective subfolder
+2025-07-28 12:46:57,825 - INFO - Timeout per subfolder: 300 seconds
+2025-07-28 12:46:57,825 - INFO - Found processing script at: C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py
+2025-07-28 12:47:08,978 - INFO - Processing subfolder 1/4: 20250721
+2025-07-28 12:47:08,979 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p34p35p36p37p38\20250721
+2025-07-28 12:47:08,979 - INFO - Timeout set to 300 seconds
+2025-07-28 12:52:17,358 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p34p35p36p37p38\20250721
+2025-07-28 12:52:17,359 - INFO - Progress: 1/4 completed
+2025-07-28 12:52:17,359 - INFO - Processing subfolder 2/4: 20250722
+2025-07-28 12:52:17,359 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p34p35p36p37p38\20250722
+2025-07-28 12:52:17,359 - INFO - Timeout set to 300 seconds
+2025-07-28 12:57:13,158 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p34p35p36p37p38\20250722
+2025-07-28 12:57:13,158 - INFO - Progress: 2/4 completed
+2025-07-28 12:57:13,158 - INFO - Processing subfolder 3/4: 20250723
+2025-07-28 12:57:13,158 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p34p35p36p37p38\20250723
+2025-07-28 12:57:13,159 - INFO - Timeout set to 300 seconds
+2025-07-28 13:01:40,047 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p34p35p36p37p38\20250723
+2025-07-28 13:01:40,047 - INFO - Progress: 3/4 completed
+2025-07-28 13:01:40,047 - INFO - Processing subfolder 4/4: 20250724
+2025-07-28 13:01:40,048 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p34p35p36p37p38\20250724
+2025-07-28 13:01:40,048 - INFO - Timeout set to 300 seconds
+2025-07-28 13:06:30,368 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p34p35p36p37p38\20250724
+2025-07-28 13:06:30,368 - INFO - Progress: 4/4 completed
+2025-07-28 13:06:30,370 - INFO - All selected subfolders processed successfully!
+2025-07-28 13:07:47,664 - INFO - Starting batch processing
+2025-07-28 13:07:47,664 - INFO - Parent folder: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p34p35p36p37p38
+2025-07-28 13:07:47,665 - INFO - Output folder: Results will be saved in each respective subfolder
+2025-07-28 13:07:47,665 - INFO - Timeout per subfolder: 300 seconds
+2025-07-28 13:07:47,665 - INFO - Found processing script at: C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py
+2025-07-28 13:07:56,450 - INFO - Processing subfolder 1/1: 20250722
+2025-07-28 13:07:56,450 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p34p35p36p37p38\20250722
+2025-07-28 13:07:56,451 - INFO - Timeout set to 300 seconds
+2025-07-28 13:15:05,489 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p34p35p36p37p38\20250722
+2025-07-28 13:15:05,490 - INFO - Progress: 1/1 completed
+2025-07-28 13:15:05,490 - INFO - All selected subfolders processed successfully!
+2025-07-31 11:45:42,533 - INFO - Starting batch processing
+2025-07-31 11:45:42,545 - INFO - Parent folder: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p34p35p36p37p38
+2025-07-31 11:45:42,545 - INFO - Output folder: Results will be saved in each respective subfolder
+2025-07-31 11:45:42,545 - INFO - Timeout per subfolder: 300 seconds
+2025-07-31 11:45:42,546 - INFO - Found processing script at: C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py
+2025-07-31 11:52:26,764 - INFO - Starting batch processing
+2025-07-31 11:52:26,765 - INFO - Parent folder: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p34p35p36p37p38
+2025-07-31 11:52:26,765 - INFO - Output folder: Results will be saved in each respective subfolder
+2025-07-31 11:52:26,765 - INFO - Timeout per subfolder: 300 seconds
+2025-07-31 11:52:26,766 - INFO - Found processing script at: C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py
+2025-07-31 11:52:51,057 - INFO - Processing subfolder 1/2: 20250729
+2025-07-31 11:52:51,057 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p34p35p36p37p38\20250729
+2025-07-31 11:52:51,058 - INFO - Timeout set to 300 seconds
+2025-07-31 11:57:25,162 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p34p35p36p37p38\20250729
+2025-07-31 11:57:25,163 - INFO - Progress: 1/2 completed
+2025-07-31 11:57:25,164 - INFO - Processing subfolder 2/2: 20250730
+2025-07-31 11:57:25,164 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p34p35p36p37p38\20250730
+2025-07-31 11:57:25,164 - INFO - Timeout set to 300 seconds
+2025-07-31 12:02:03,122 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p34p35p36p37p38\20250730
+2025-07-31 12:02:03,123 - INFO - Progress: 2/2 completed
+2025-07-31 12:02:03,123 - INFO - All selected subfolders processed successfully!
+2025-07-31 12:40:33,160 - INFO - Starting batch processing
+2025-07-31 12:40:33,161 - INFO - Parent folder: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p34p35p36p37p38
+2025-07-31 12:40:33,161 - INFO - Output folder: Results will be saved in each respective subfolder
+2025-07-31 12:40:33,161 - INFO - Timeout per subfolder: 300 seconds
+2025-07-31 12:40:33,161 - INFO - Found processing script at: C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py
+2025-07-31 13:59:32,046 - INFO - Starting batch processing
+2025-07-31 13:59:32,047 - INFO - Parent folder: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13
+2025-07-31 13:59:32,047 - INFO - Output folder: Results will be saved in each respective subfolder
+2025-07-31 13:59:32,048 - INFO - Timeout per subfolder: 300 seconds
+2025-07-31 13:59:32,048 - INFO - Found processing script at: C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py
+2025-07-31 13:59:36,524 - INFO - Processing subfolder 1/43: 20230828
+2025-07-31 13:59:36,524 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20230828
+2025-07-31 13:59:36,524 - INFO - Timeout set to 300 seconds
+2025-07-31 14:01:47,321 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20230828
+2025-07-31 14:01:47,322 - INFO - Progress: 1/43 completed
+2025-07-31 14:01:47,322 - INFO - Processing subfolder 2/43: 20230829
+2025-07-31 14:01:47,322 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20230829
+2025-07-31 14:01:47,323 - INFO - Timeout set to 300 seconds
+2025-07-31 14:03:27,420 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20230829
+2025-07-31 14:03:27,421 - INFO - Progress: 2/43 completed
+2025-07-31 14:03:27,421 - INFO - Processing subfolder 3/43: 20230830
+2025-07-31 14:03:27,421 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20230830
+2025-07-31 14:03:27,421 - INFO - Timeout set to 300 seconds
+2025-07-31 14:04:46,517 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20230830
+2025-07-31 14:04:46,518 - INFO - Progress: 3/43 completed
+2025-07-31 14:04:46,518 - INFO - Processing subfolder 4/43: 20230831
+2025-07-31 14:04:46,518 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20230831
+2025-07-31 14:04:46,518 - INFO - Timeout set to 300 seconds
+2025-07-31 14:06:49,093 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20230831
+2025-07-31 14:06:49,094 - INFO - Progress: 4/43 completed
+2025-07-31 14:06:49,094 - INFO - Processing subfolder 5/43: 20230905
+2025-07-31 14:06:49,094 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20230905
+2025-07-31 14:06:49,094 - INFO - Timeout set to 300 seconds
+2025-07-31 14:09:40,225 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20230905
+2025-07-31 14:09:40,226 - INFO - Progress: 5/43 completed
+2025-07-31 14:09:40,226 - INFO - Processing subfolder 6/43: 20230906
+2025-07-31 14:09:40,226 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20230906
+2025-07-31 14:09:40,227 - INFO - Timeout set to 300 seconds
+2025-07-31 14:12:27,499 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20230906
+2025-07-31 14:12:27,500 - INFO - Progress: 6/43 completed
+2025-07-31 14:12:27,500 - INFO - Processing subfolder 7/43: 20230907
+2025-07-31 14:12:27,501 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20230907
+2025-07-31 14:12:27,501 - INFO - Timeout set to 300 seconds
+2025-07-31 14:14:55,629 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20230907
+2025-07-31 14:14:55,629 - INFO - Progress: 7/43 completed
+2025-07-31 14:14:55,630 - INFO - Processing subfolder 8/43: 20230911
+2025-07-31 14:14:55,630 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20230911
+2025-07-31 14:14:55,630 - INFO - Timeout set to 300 seconds
+2025-07-31 14:16:27,285 - INFO - Starting batch processing
+2025-07-31 14:16:27,286 - INFO - Parent folder: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13
+2025-07-31 14:16:27,286 - INFO - Output folder: Results will be saved in each respective subfolder
+2025-07-31 14:16:27,286 - INFO - Timeout per subfolder: 300 seconds
+2025-07-31 14:16:27,286 - INFO - Found processing script at: C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py
+2025-07-31 14:16:34,008 - INFO - Processing subfolder 1/38: 20230829
+2025-07-31 14:16:34,008 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20230829
+2025-07-31 14:16:34,009 - INFO - Timeout set to 300 seconds
+2025-07-31 14:18:14,888 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20230829
+2025-07-31 14:18:14,888 - INFO - Progress: 1/38 completed
+2025-07-31 14:18:14,888 - INFO - Processing subfolder 2/38: 20230830
+2025-07-31 14:18:14,888 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20230830
+2025-07-31 14:18:14,888 - INFO - Timeout set to 300 seconds
+2025-07-31 14:19:31,053 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20230830
+2025-07-31 14:19:31,054 - INFO - Progress: 2/38 completed
+2025-07-31 14:19:31,054 - INFO - Processing subfolder 3/38: 20230831
+2025-07-31 14:19:31,054 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20230831
+2025-07-31 14:19:31,054 - INFO - Timeout set to 300 seconds
+2025-07-31 14:21:27,651 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20230831
+2025-07-31 14:21:27,651 - INFO - Progress: 3/38 completed
+2025-07-31 14:21:27,651 - INFO - Processing subfolder 4/38: 20230912
+2025-07-31 14:21:27,652 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20230912
+2025-07-31 14:21:27,652 - INFO - Timeout set to 300 seconds
+2025-07-31 14:23:40,744 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20230912
+2025-07-31 14:23:40,744 - INFO - Progress: 4/38 completed
+2025-07-31 14:23:40,745 - INFO - Processing subfolder 5/38: 20230913
+2025-07-31 14:23:40,745 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20230913
+2025-07-31 14:23:40,745 - INFO - Timeout set to 300 seconds
+2025-07-31 14:26:02,866 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20230913
+2025-07-31 14:26:02,867 - INFO - Progress: 5/38 completed
+2025-07-31 14:26:02,867 - INFO - Processing subfolder 6/38: 20230914
+2025-07-31 14:26:02,867 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20230914
+2025-07-31 14:26:02,867 - INFO - Timeout set to 300 seconds
+2025-07-31 14:28:25,164 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20230914
+2025-07-31 14:28:25,165 - INFO - Progress: 6/38 completed
+2025-07-31 14:28:25,165 - INFO - Processing subfolder 7/38: 20230918
+2025-07-31 14:28:25,165 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20230918
+2025-07-31 14:28:25,165 - INFO - Timeout set to 300 seconds
+2025-07-31 14:30:53,229 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20230918
+2025-07-31 14:30:53,229 - INFO - Progress: 7/38 completed
+2025-07-31 14:30:53,230 - INFO - Processing subfolder 8/38: 20230919
+2025-07-31 14:30:53,230 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20230919
+2025-07-31 14:30:53,230 - INFO - Timeout set to 300 seconds
+2025-07-31 14:33:27,601 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20230919
+2025-07-31 14:33:27,602 - INFO - Progress: 8/38 completed
+2025-07-31 14:33:27,602 - INFO - Processing subfolder 9/38: 20230920
+2025-07-31 14:33:27,602 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20230920
+2025-07-31 14:33:27,602 - INFO - Timeout set to 300 seconds
+2025-07-31 14:35:56,763 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20230920
+2025-07-31 14:35:56,763 - INFO - Progress: 9/38 completed
+2025-07-31 14:35:56,763 - INFO - Processing subfolder 10/38: 20230921
+2025-07-31 14:35:56,764 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20230921
+2025-07-31 14:35:56,764 - INFO - Timeout set to 300 seconds
+2025-07-31 14:38:35,015 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20230921
+2025-07-31 14:38:35,015 - INFO - Progress: 10/38 completed
+2025-07-31 14:38:35,015 - INFO - Processing subfolder 11/38: 20230925
+2025-07-31 14:38:35,015 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20230925
+2025-07-31 14:38:35,016 - INFO - Timeout set to 300 seconds
+2025-07-31 14:41:03,156 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20230925
+2025-07-31 14:41:03,156 - INFO - Progress: 11/38 completed
+2025-07-31 14:41:03,157 - INFO - Processing subfolder 12/38: 20230927
+2025-07-31 14:41:03,157 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20230927
+2025-07-31 14:41:03,157 - INFO - Timeout set to 300 seconds
+2025-07-31 14:43:39,337 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20230927
+2025-07-31 14:43:39,338 - INFO - Progress: 12/38 completed
+2025-07-31 14:43:39,338 - INFO - Processing subfolder 13/38: 20230928
+2025-07-31 14:43:39,338 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20230928
+2025-07-31 14:43:39,339 - INFO - Timeout set to 300 seconds
+2025-07-31 14:44:45,906 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20230928
+2025-07-31 14:44:45,906 - INFO - Progress: 13/38 completed
+2025-07-31 14:44:45,906 - INFO - Processing subfolder 14/38: 20231002
+2025-07-31 14:44:45,907 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20231002
+2025-07-31 14:44:45,907 - INFO - Timeout set to 300 seconds
+2025-07-31 14:47:21,905 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20231002
+2025-07-31 14:47:21,905 - INFO - Progress: 14/38 completed
+2025-07-31 14:47:21,905 - INFO - Processing subfolder 15/38: 20231003
+2025-07-31 14:47:21,905 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20231003
+2025-07-31 14:47:21,905 - INFO - Timeout set to 300 seconds
+2025-07-31 14:50:54,953 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20231003
+2025-07-31 14:50:54,954 - INFO - Progress: 15/38 completed
+2025-07-31 14:50:54,954 - INFO - Processing subfolder 16/38: 20231004
+2025-07-31 14:50:54,954 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20231004
+2025-07-31 14:50:54,954 - INFO - Timeout set to 300 seconds
+2025-07-31 14:53:32,066 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20231004
+2025-07-31 14:53:32,066 - INFO - Progress: 16/38 completed
+2025-07-31 14:53:32,066 - INFO - Processing subfolder 17/38: 20231005
+2025-07-31 14:53:32,067 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20231005
+2025-07-31 14:53:32,067 - INFO - Timeout set to 300 seconds
+2025-07-31 14:56:24,196 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20231005
+2025-07-31 14:56:24,197 - INFO - Progress: 17/38 completed
+2025-07-31 14:56:24,197 - INFO - Processing subfolder 18/38: 20231010
+2025-07-31 14:56:24,197 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20231010
+2025-07-31 14:56:24,197 - INFO - Timeout set to 300 seconds
+2025-07-31 14:57:41,686 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20231010
+2025-07-31 14:57:41,686 - INFO - Progress: 18/38 completed
+2025-07-31 14:57:41,686 - INFO - Processing subfolder 19/38: 20231011
+2025-07-31 14:57:41,687 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20231011
+2025-07-31 14:57:41,687 - INFO - Timeout set to 300 seconds
+2025-07-31 15:00:00,684 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20231011
+2025-07-31 15:00:00,685 - INFO - Progress: 19/38 completed
+2025-07-31 15:00:00,685 - INFO - Processing subfolder 20/38: 20231012
+2025-07-31 15:00:00,685 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20231012
+2025-07-31 15:00:00,686 - INFO - Timeout set to 300 seconds
+2025-07-31 15:02:38,833 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20231012
+2025-07-31 15:02:38,834 - INFO - Progress: 20/38 completed
+2025-07-31 15:02:38,834 - INFO - Processing subfolder 21/38: 20231016
+2025-07-31 15:02:38,835 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20231016
+2025-07-31 15:02:38,835 - INFO - Timeout set to 300 seconds
+2025-07-31 15:05:06,860 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20231016
+2025-07-31 15:05:06,861 - INFO - Progress: 21/38 completed
+2025-07-31 15:05:06,861 - INFO - Processing subfolder 22/38: 20231017
+2025-07-31 15:05:06,861 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20231017
+2025-07-31 15:05:06,861 - INFO - Timeout set to 300 seconds
+2025-07-31 15:07:32,971 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20231017
+2025-07-31 15:07:32,971 - INFO - Progress: 22/38 completed
+2025-07-31 15:07:32,971 - INFO - Processing subfolder 23/38: 20231018
+2025-07-31 15:07:32,972 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20231018
+2025-07-31 15:07:32,972 - INFO - Timeout set to 300 seconds
+2025-07-31 15:10:31,949 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20231018
+2025-07-31 15:10:31,949 - INFO - Progress: 23/38 completed
+2025-07-31 15:10:31,950 - INFO - Processing subfolder 24/38: 20231129
+2025-07-31 15:10:31,950 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20231129
+2025-07-31 15:10:31,950 - INFO - Timeout set to 300 seconds
+2025-07-31 15:11:56,806 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20231129
+2025-07-31 15:11:56,806 - INFO - Progress: 24/38 completed
+2025-07-31 15:11:56,806 - INFO - Processing subfolder 25/38: 20231130
+2025-07-31 15:11:56,807 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20231130
+2025-07-31 15:11:56,807 - INFO - Timeout set to 300 seconds
+2025-07-31 15:14:05,333 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20231130
+2025-07-31 15:14:05,334 - INFO - Progress: 25/38 completed
+2025-07-31 15:14:05,334 - INFO - Processing subfolder 26/38: 20231201
+2025-07-31 15:14:05,334 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20231201
+2025-07-31 15:14:05,334 - INFO - Timeout set to 300 seconds
+2025-07-31 15:15:30,933 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20231201
+2025-07-31 15:15:30,933 - INFO - Progress: 26/38 completed
+2025-07-31 15:15:30,933 - INFO - Processing subfolder 27/38: 20231204
+2025-07-31 15:15:30,933 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20231204
+2025-07-31 15:15:30,934 - INFO - Timeout set to 300 seconds
+2025-07-31 15:16:41,238 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20231204
+2025-07-31 15:16:41,239 - INFO - Progress: 27/38 completed
+2025-07-31 15:16:41,239 - INFO - Processing subfolder 28/38: 20231205
+2025-07-31 15:16:41,239 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20231205
+2025-07-31 15:16:41,239 - INFO - Timeout set to 300 seconds
+2025-07-31 15:18:03,094 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20231205
+2025-07-31 15:18:03,094 - INFO - Progress: 28/38 completed
+2025-07-31 15:18:03,094 - INFO - Processing subfolder 29/38: 20231206
+2025-07-31 15:18:03,095 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20231206
+2025-07-31 15:18:03,095 - INFO - Timeout set to 300 seconds
+2025-07-31 15:20:16,675 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20231206
+2025-07-31 15:20:16,675 - INFO - Progress: 29/38 completed
+2025-07-31 15:20:16,676 - INFO - Processing subfolder 30/38: 20231207
+2025-07-31 15:20:16,676 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20231207
+2025-07-31 15:20:16,676 - INFO - Timeout set to 300 seconds
+2025-07-31 15:21:55,710 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20231207
+2025-07-31 15:21:55,711 - INFO - Progress: 30/38 completed
+2025-07-31 15:21:55,711 - INFO - Processing subfolder 31/38: 20231212
+2025-07-31 15:21:55,711 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20231212
+2025-07-31 15:21:55,711 - INFO - Timeout set to 300 seconds
+2025-07-31 15:23:24,117 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20231212
+2025-07-31 15:23:24,117 - INFO - Progress: 31/38 completed
+2025-07-31 15:23:24,117 - INFO - Processing subfolder 32/38: 20231214
+2025-07-31 15:23:24,117 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20231214
+2025-07-31 15:23:24,118 - INFO - Timeout set to 300 seconds
+2025-07-31 15:24:34,998 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20231214
+2025-07-31 15:24:34,998 - INFO - Progress: 32/38 completed
+2025-07-31 15:24:34,999 - INFO - Processing subfolder 33/38: 20231215
+2025-07-31 15:24:34,999 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20231215
+2025-07-31 15:24:34,999 - INFO - Timeout set to 300 seconds
+2025-07-31 15:26:12,580 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20231215
+2025-07-31 15:26:12,580 - INFO - Progress: 33/38 completed
+2025-07-31 15:26:12,580 - INFO - Processing subfolder 34/38: 20231218
+2025-07-31 15:26:12,581 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20231218
+2025-07-31 15:26:12,581 - INFO - Timeout set to 300 seconds
+2025-07-31 15:28:03,611 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20231218
+2025-07-31 15:28:03,611 - INFO - Progress: 34/38 completed
+2025-07-31 15:28:03,611 - INFO - Processing subfolder 35/38: 20231219
+2025-07-31 15:28:03,611 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20231219
+2025-07-31 15:28:03,612 - INFO - Timeout set to 300 seconds
+2025-07-31 15:29:53,727 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20231219
+2025-07-31 15:29:53,728 - INFO - Progress: 35/38 completed
+2025-07-31 15:29:53,728 - INFO - Processing subfolder 36/38: 20231220
+2025-07-31 15:29:53,728 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20231220
+2025-07-31 15:29:53,728 - INFO - Timeout set to 300 seconds
+2025-07-31 15:31:18,577 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20231220
+2025-07-31 15:31:18,577 - INFO - Progress: 36/38 completed
+2025-07-31 15:31:18,577 - INFO - Processing subfolder 37/38: b12b13_location_inputs
+2025-07-31 15:31:18,578 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\b12b13_location_inputs
+2025-07-31 15:31:18,578 - INFO - Timeout set to 300 seconds
+2025-07-31 15:31:19,398 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\b12b13_location_inputs
+2025-07-31 15:31:19,399 - INFO - Progress: 37/38 completed
+2025-07-31 15:31:19,399 - INFO - Processing subfolder 38/38: script_test_todelete
+2025-07-31 15:31:19,399 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\script_test_todelete
+2025-07-31 15:31:19,400 - INFO - Timeout set to 300 seconds
+2025-07-31 15:31:20,190 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\script_test_todelete
+2025-07-31 15:31:20,190 - INFO - Progress: 38/38 completed
+2025-07-31 15:31:20,192 - INFO - All selected subfolders processed successfully!
+2025-07-31 15:32:23,949 - INFO - Starting batch processing
+2025-07-31 15:32:23,949 - INFO - Parent folder: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13
+2025-07-31 15:32:23,949 - INFO - Output folder: Results will be saved in each respective subfolder
+2025-07-31 15:32:23,949 - INFO - Timeout per subfolder: 300 seconds
+2025-07-31 15:32:23,950 - INFO - Found processing script at: C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py
+2025-08-01 13:06:27,115 - INFO - Starting batch processing
+2025-08-01 13:06:27,117 - INFO - Parent folder: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13
+2025-08-01 13:06:27,118 - INFO - Output folder: Results will be saved in each respective subfolder
+2025-08-01 13:06:27,118 - INFO - Timeout per subfolder: 300 seconds
+2025-08-01 13:06:27,118 - INFO - Found processing script at: C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py
+2025-08-01 13:06:33,537 - INFO - Processing subfolder 1/4: 20230830
+2025-08-01 13:06:33,537 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20230830
+2025-08-01 13:06:33,537 - INFO - Timeout set to 300 seconds
+2025-08-01 13:08:41,133 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20230830
+2025-08-01 13:08:41,145 - INFO - Progress: 1/4 completed
+2025-08-01 13:08:41,145 - INFO - Processing subfolder 2/4: 20230831
+2025-08-01 13:08:41,145 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20230831
+2025-08-01 13:08:41,145 - INFO - Timeout set to 300 seconds
+2025-08-01 13:11:46,115 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\20230831
+2025-08-01 13:11:46,116 - INFO - Progress: 2/4 completed
+2025-08-01 13:11:46,116 - INFO - Processing subfolder 3/4: b12b13_location_inputs
+2025-08-01 13:11:46,116 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\b12b13_location_inputs
+2025-08-01 13:11:46,116 - INFO - Timeout set to 300 seconds
+2025-08-01 13:11:46,980 - ERROR - Script completed but no CSV output found in C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\b12b13_location_inputs
+2025-08-01 13:11:46,980 - INFO - Progress: 3/4 completed
+2025-08-01 13:11:46,981 - INFO - Processing subfolder 4/4: script_test_todelete
+2025-08-01 13:11:46,981 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\script_test_todelete
+2025-08-01 13:11:46,981 - INFO - Timeout set to 300 seconds
+2025-08-01 13:11:47,785 - ERROR - Script completed but no CSV output found in C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\script_test_todelete
+2025-08-01 13:11:47,785 - INFO - Progress: 4/4 completed
+2025-08-01 13:11:47,787 - INFO - All selected subfolders processed successfully!
+2025-08-01 13:13:36,322 - INFO - Starting batch processing
+2025-08-01 13:13:36,323 - INFO - Parent folder: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13
+2025-08-01 13:13:36,323 - INFO - Output folder: Results will be saved in each respective subfolder
+2025-08-01 13:13:36,323 - INFO - Timeout per subfolder: 300 seconds
+2025-08-01 13:13:36,323 - INFO - Found processing script at: C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py
+2025-08-01 13:13:42,189 - INFO - Processing subfolder 1/2: b12b13_location_inputs
+2025-08-01 13:13:42,189 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\b12b13_location_inputs
+2025-08-01 13:13:42,190 - INFO - Timeout set to 300 seconds
+2025-08-01 13:13:43,033 - ERROR - Script completed but no CSV output found in C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\b12b13_location_inputs
+2025-08-01 13:13:43,034 - INFO - Progress: 1/2 completed
+2025-08-01 13:13:43,034 - INFO - Processing subfolder 2/2: script_test_todelete
+2025-08-01 13:13:43,034 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\script_test_todelete
+2025-08-01 13:13:43,034 - INFO - Timeout set to 300 seconds
+2025-08-01 13:13:43,850 - ERROR - Script completed but no CSV output found in C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\script_test_todelete
+2025-08-01 13:13:43,851 - INFO - Progress: 2/2 completed
+2025-08-01 13:13:43,852 - INFO - All selected subfolders processed successfully!
+2025-08-01 13:15:59,850 - INFO - Starting batch processing
+2025-08-01 13:15:59,851 - INFO - Parent folder: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13
+2025-08-01 13:15:59,851 - INFO - Output folder: Results will be saved in each respective subfolder
+2025-08-01 13:15:59,851 - INFO - Timeout per subfolder: 300 seconds
+2025-08-01 13:15:59,852 - INFO - Found processing script at: C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py
+2025-08-01 13:16:02,973 - INFO - Processing subfolder 1/2: b12b13_location_inputs
+2025-08-01 13:16:02,973 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\b12b13_location_inputs
+2025-08-01 13:16:02,974 - INFO - Timeout set to 300 seconds
+2025-08-01 13:16:03,800 - ERROR - Script completed but no CSV output found in C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\b12b13_location_inputs
+2025-08-01 13:16:03,801 - INFO - Progress: 1/2 completed
+2025-08-01 13:16:03,801 - INFO - Processing subfolder 2/2: script_test_todelete
+2025-08-01 13:16:03,801 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\script_test_todelete
+2025-08-01 13:16:03,801 - INFO - Timeout set to 300 seconds
+2025-08-01 13:16:04,627 - ERROR - Script completed but no CSV output found in C:\Users\shettigarn\Desktop\git\ns_sandbox\data\b12b13\script_test_todelete
+2025-08-01 13:16:04,627 - INFO - Progress: 2/2 completed
+2025-08-01 13:16:04,629 - WARNING - Some subfolders failed to process. Check the log for details.
+2025-08-01 13:59:39,442 - INFO - Starting batch processing
+2025-08-01 13:59:39,443 - INFO - Parent folder: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18
+2025-08-01 13:59:39,443 - INFO - Output folder: Results will be saved in each respective subfolder
+2025-08-01 13:59:39,443 - INFO - Timeout per subfolder: 300 seconds
+2025-08-01 13:59:39,443 - INFO - Found processing script at: C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py
+2025-08-01 14:03:51,117 - INFO - Starting batch processing
+2025-08-01 14:03:51,118 - INFO - Parent folder: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18
+2025-08-01 14:03:51,118 - INFO - Output folder: Results will be saved in each respective subfolder
+2025-08-01 14:03:51,118 - INFO - Timeout per subfolder: 300 seconds
+2025-08-01 14:03:51,118 - INFO - Found processing script at: C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py
+2025-08-01 14:04:04,693 - INFO - Processing subfolder 1/49: 20240223
+2025-08-01 14:04:04,693 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240223
+2025-08-01 14:04:04,694 - INFO - Timeout set to 300 seconds
+2025-08-01 14:09:11,302 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240223
+2025-08-01 14:09:11,302 - INFO - Created CSV: 2024-02-23T11_50_00_ p16_ccf_all_params_file.csv
+2025-08-01 14:09:11,302 - INFO - Progress: 1/49 completed
+2025-08-01 14:09:11,303 - INFO - Processing subfolder 2/49: 20240226
+2025-08-01 14:09:11,303 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240226
+2025-08-01 14:09:11,303 - INFO - Timeout set to 300 seconds
+2025-08-01 14:17:12,612 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240226
+2025-08-01 14:17:12,613 - INFO - Created CSV: 2024-02-26T11_49_20_ p16_ccf_all_params_file.csv
+2025-08-01 14:17:12,613 - INFO - Progress: 2/49 completed
+2025-08-01 14:17:12,613 - INFO - Processing subfolder 3/49: 20240227
+2025-08-01 14:17:12,613 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240227
+2025-08-01 14:17:12,614 - INFO - Timeout set to 300 seconds
+2025-08-01 14:25:08,552 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240227
+2025-08-01 14:25:08,552 - INFO - Created CSV: 2024-02-27T09_55_30_ p16_ccf_all_params_file.csv
+2025-08-01 14:25:08,552 - INFO - Progress: 3/49 completed
+2025-08-01 14:25:08,552 - INFO - Processing subfolder 4/49: 20240229
+2025-08-01 14:25:08,553 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240229
+2025-08-01 14:25:08,553 - INFO - Timeout set to 300 seconds
+2025-08-01 14:32:36,549 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240229
+2025-08-01 14:32:36,549 - INFO - Created CSV: 2024-02-29T10_12_20_ p16_ccf_all_params_file.csv
+2025-08-01 14:32:36,549 - INFO - Progress: 4/49 completed
+2025-08-01 14:32:36,550 - INFO - Processing subfolder 5/49: 20240301
+2025-08-01 14:32:36,550 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240301
+2025-08-01 14:32:36,550 - INFO - Timeout set to 300 seconds
+2025-08-01 14:40:07,614 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240301
+2025-08-01 14:40:07,614 - INFO - Created CSV: 2024-03-01T11_49_37_ p17_ccf_all_params_file.csv
+2025-08-01 14:40:07,614 - INFO - Progress: 5/49 completed
+2025-08-01 14:40:07,614 - INFO - Processing subfolder 6/49: 20240304
+2025-08-01 14:40:07,615 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240304
+2025-08-01 14:40:07,615 - INFO - Timeout set to 300 seconds
+2025-08-01 14:46:25,081 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240304
+2025-08-01 14:46:25,082 - INFO - Created CSV: 2024-03-04T10_07_34_ p18_ccf_all_params_file.csv
+2025-08-01 14:46:25,082 - INFO - Progress: 6/49 completed
+2025-08-01 14:46:25,082 - INFO - Processing subfolder 7/49: 20240305
+2025-08-01 14:46:25,082 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240305
+2025-08-01 14:46:25,083 - INFO - Timeout set to 300 seconds
+2025-08-01 14:54:49,685 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240305
+2025-08-01 14:54:49,685 - INFO - Created CSV: 2024-03-05T09_38_12_ p18_ccf_all_params_file.csv
+2025-08-01 14:54:49,686 - INFO - Progress: 7/49 completed
+2025-08-01 14:54:49,686 - INFO - Processing subfolder 8/49: 20240306
+2025-08-01 14:54:49,686 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240306
+2025-08-01 14:54:49,687 - INFO - Timeout set to 300 seconds
+2025-08-01 15:02:02,877 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240306
+2025-08-01 15:02:02,877 - INFO - Created CSV: 2024-03-06T11_45_14_ p18_ccf_all_params_file.csv
+2025-08-01 15:02:02,878 - INFO - Progress: 8/49 completed
+2025-08-01 15:02:02,878 - INFO - Processing subfolder 9/49: 20240307
+2025-08-01 15:02:02,878 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240307
+2025-08-01 15:02:02,879 - INFO - Timeout set to 300 seconds
+2025-08-01 15:08:45,054 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240307
+2025-08-01 15:08:45,055 - INFO - Created CSV: 2024-03-07T11_49_40_ p18_ccf_all_params_file.csv
+2025-08-01 15:08:45,055 - INFO - Progress: 9/49 completed
+2025-08-01 15:08:45,055 - INFO - Processing subfolder 10/49: 20240308
+2025-08-01 15:08:45,056 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240308
+2025-08-01 15:08:45,056 - INFO - Timeout set to 300 seconds
+2025-08-01 15:16:22,899 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240308
+2025-08-01 15:16:22,899 - INFO - Created CSV: 2024-03-08T12_09_51_ p18_ccf_all_params_file.csv
+2025-08-01 15:16:22,900 - INFO - Progress: 10/49 completed
+2025-08-01 15:16:22,900 - INFO - Processing subfolder 11/49: 20240312
+2025-08-01 15:16:22,900 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240312
+2025-08-01 15:16:22,900 - INFO - Timeout set to 300 seconds
+2025-08-01 15:23:41,452 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240312
+2025-08-01 15:23:41,453 - INFO - Created CSV: 2024-03-12T12_04_01_ p16_ccf_all_params_file.csv
+2025-08-01 15:23:41,453 - INFO - Progress: 11/49 completed
+2025-08-01 15:23:41,453 - INFO - Processing subfolder 12/49: 20240313
+2025-08-01 15:23:41,453 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240313
+2025-08-01 15:23:41,453 - INFO - Timeout set to 300 seconds
+2025-08-01 15:30:29,274 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240313
+2025-08-01 15:30:29,275 - INFO - Created CSV: 2024-03-13T10_43_09_ p16_ccf_all_params_file.csv
+2025-08-01 15:30:29,275 - INFO - Progress: 12/49 completed
+2025-08-01 15:30:29,275 - INFO - Processing subfolder 13/49: 20240314
+2025-08-01 15:30:29,275 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240314
+2025-08-01 15:30:29,275 - INFO - Timeout set to 300 seconds
+2025-08-01 15:37:19,337 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240314
+2025-08-01 15:37:19,337 - INFO - Created CSV: 2024-03-14T11_45_45_ p16_ccf_all_params_file.csv
+2025-08-01 15:37:19,338 - INFO - Progress: 13/49 completed
+2025-08-01 15:37:19,338 - INFO - Processing subfolder 14/49: 20240315
+2025-08-01 15:37:19,338 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240315
+2025-08-01 15:37:19,338 - INFO - Timeout set to 300 seconds
+2025-08-01 15:42:37,825 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240315
+2025-08-01 15:42:37,826 - INFO - Created CSV: 2024-03-15T12_06_52_ p16_ccf_all_params_file.csv
+2025-08-01 15:42:37,826 - INFO - Progress: 14/49 completed
+2025-08-01 15:42:37,826 - INFO - Processing subfolder 15/49: 20240319
+2025-08-01 15:42:37,827 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240319
+2025-08-01 15:42:37,827 - INFO - Timeout set to 300 seconds
+2025-08-01 15:49:14,979 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240319
+2025-08-01 15:49:14,979 - INFO - Created CSV: 2024-03-19T11_42_32_ p18_ccf_all_params_file.csv
+2025-08-01 15:49:14,980 - INFO - Progress: 15/49 completed
+2025-08-01 15:49:14,980 - INFO - Processing subfolder 16/49: 20240320
+2025-08-01 15:49:14,980 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240320
+2025-08-01 15:49:14,980 - INFO - Timeout set to 300 seconds
+2025-08-01 15:55:00,235 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240320
+2025-08-01 15:55:00,235 - INFO - Created CSV: 2024-03-20T10_08_47_ p18_ccf_all_params_file.csv
+2025-08-01 15:55:00,236 - INFO - Progress: 16/49 completed
+2025-08-01 15:55:00,236 - INFO - Processing subfolder 17/49: 20240321
+2025-08-01 15:55:00,236 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240321
+2025-08-01 15:55:00,236 - INFO - Timeout set to 300 seconds
+2025-08-01 16:00:23,803 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240321
+2025-08-01 16:00:23,804 - INFO - Created CSV: 2024-03-21T11_45_55_ p18_ccf_all_params_file.csv
+2025-08-01 16:00:23,804 - INFO - Progress: 17/49 completed
+2025-08-01 16:00:23,804 - INFO - Processing subfolder 18/49: 20240322
+2025-08-01 16:00:23,805 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240322
+2025-08-01 16:00:23,805 - INFO - Timeout set to 300 seconds
+2025-08-01 16:05:28,673 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240322
+2025-08-01 16:05:28,673 - INFO - Created CSV: 2024-03-22T12_08_18_ p18_ccf_all_params_file.csv
+2025-08-01 16:05:28,673 - INFO - Progress: 18/49 completed
+2025-08-01 16:05:28,674 - INFO - Processing subfolder 19/49: 20240325
+2025-08-01 16:05:28,674 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240325
+2025-08-01 16:05:28,674 - INFO - Timeout set to 300 seconds
+2025-08-01 16:11:14,323 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240325
+2025-08-01 16:11:14,324 - INFO - Created CSV: 2024-03-25T12_51_24_ p16_ccf_all_params_file.csv
+2025-08-01 16:11:14,324 - INFO - Progress: 19/49 completed
+2025-08-01 16:11:14,324 - INFO - Processing subfolder 20/49: 20240326
+2025-08-01 16:11:14,324 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240326
+2025-08-01 16:11:14,325 - INFO - Timeout set to 300 seconds
+2025-08-01 16:17:13,319 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240326
+2025-08-01 16:17:13,319 - INFO - Created CSV: 2024-03-26T12_06_40_ p16_ccf_all_params_file.csv
+2025-08-01 16:17:13,319 - INFO - Progress: 20/49 completed
+2025-08-01 16:17:13,319 - INFO - Processing subfolder 21/49: 20240327
+2025-08-01 16:17:13,320 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240327
+2025-08-01 16:17:13,320 - INFO - Timeout set to 300 seconds
+2025-08-01 16:23:37,106 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240327
+2025-08-01 16:23:37,106 - INFO - Created CSV: 2024-03-27T12_07_35_ p16_ccf_all_params_file.csv
+2025-08-01 16:23:37,107 - INFO - Progress: 21/49 completed
+2025-08-01 16:23:37,107 - INFO - Processing subfolder 22/49: 20240328
+2025-08-01 16:23:37,107 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240328
+2025-08-01 16:23:37,107 - INFO - Timeout set to 300 seconds
+2025-08-01 16:28:56,892 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240328
+2025-08-01 16:28:56,892 - INFO - Created CSV: 2024-03-28T11_58_43_ p16_ccf_all_params_file.csv
+2025-08-01 16:28:56,892 - INFO - Progress: 22/49 completed
+2025-08-01 16:28:56,892 - INFO - Processing subfolder 23/49: 20240408
+2025-08-01 16:28:56,892 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240408
+2025-08-01 16:28:56,893 - INFO - Timeout set to 300 seconds
+2025-08-01 16:41:56,106 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240408
+2025-08-01 16:41:56,106 - INFO - Created CSV: 2024-04-08T11_50_15_ p16_ccf_all_params_file.csv
+2025-08-01 16:41:56,106 - INFO - Progress: 23/49 completed
+2025-08-01 16:41:56,107 - INFO - Processing subfolder 24/49: 20240409
+2025-08-01 16:41:56,107 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240409
+2025-08-01 16:41:56,107 - INFO - Timeout set to 300 seconds
+2025-08-01 16:52:03,017 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240409
+2025-08-01 16:52:03,017 - INFO - Created CSV: 2024-04-09T11_44_34_ p16_ccf_all_params_file.csv
+2025-08-01 16:52:03,017 - INFO - Progress: 24/49 completed
+2025-08-01 16:52:03,018 - INFO - Processing subfolder 25/49: 20240426
+2025-08-01 16:52:03,018 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240426
+2025-08-01 16:52:03,018 - INFO - Timeout set to 300 seconds
+2025-08-01 16:55:20,049 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240426
+2025-08-01 16:55:20,049 - INFO - Created CSV: 2024-04-26T11_42_19_p18_ccf_all_params_file.csv
+2025-08-01 16:55:20,049 - INFO - Progress: 25/49 completed
+2025-08-01 16:55:20,050 - INFO - Processing subfolder 26/49: 20240429
+2025-08-01 16:55:20,050 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240429
+2025-08-01 16:55:20,050 - INFO - Timeout set to 300 seconds
+2025-08-01 16:58:38,410 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240429
+2025-08-01 16:58:38,410 - INFO - Created CSV: 2024-04-29T11_26_47_p17_ccf_all_params_file.csv
+2025-08-01 16:58:38,410 - INFO - Progress: 26/49 completed
+2025-08-01 16:58:38,410 - INFO - Processing subfolder 27/49: 20240430
+2025-08-01 16:58:38,411 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240430
+2025-08-01 16:58:38,411 - INFO - Timeout set to 300 seconds
+2025-08-01 17:01:52,792 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240430
+2025-08-01 17:01:52,792 - INFO - Created CSV: 2024-04-30T10_39_45_p17_ccf_all_params_file.csv
+2025-08-01 17:01:52,792 - INFO - Progress: 27/49 completed
+2025-08-01 17:01:52,793 - INFO - Processing subfolder 28/49: 20240501
+2025-08-01 17:01:52,793 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240501
+2025-08-01 17:01:52,793 - INFO - Timeout set to 300 seconds
+2025-08-01 17:05:33,847 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240501
+2025-08-01 17:05:33,847 - INFO - Created CSV: 2024-05-01T10_38_44_p17_ccf_all_params_file.csv
+2025-08-01 17:05:33,848 - INFO - Progress: 28/49 completed
+2025-08-01 17:05:33,848 - INFO - Processing subfolder 29/49: 20240502
+2025-08-01 17:05:33,848 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240502
+2025-08-01 17:05:33,848 - INFO - Timeout set to 300 seconds
+2025-08-01 17:08:53,909 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240502
+2025-08-01 17:08:53,910 - INFO - Created CSV: 2024-05-02T10_34_55_p17_ccf_all_params_file.csv
+2025-08-01 17:08:53,910 - INFO - Progress: 29/49 completed
+2025-08-01 17:08:53,910 - INFO - Processing subfolder 30/49: 20240503
+2025-08-01 17:08:53,910 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240503
+2025-08-01 17:08:53,911 - INFO - Timeout set to 300 seconds
+2025-08-01 17:12:13,591 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240503
+2025-08-01 17:12:13,591 - INFO - Created CSV: 2024-05-03T10_20_20_p17_ccf_all_params_file.csv
+2025-08-01 17:12:13,591 - INFO - Progress: 30/49 completed
+2025-08-01 17:12:13,592 - INFO - Processing subfolder 31/49: 20240507
+2025-08-01 17:12:13,592 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240507
+2025-08-01 17:12:13,592 - INFO - Timeout set to 300 seconds
+2025-08-01 17:16:11,561 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240507
+2025-08-01 17:16:11,561 - INFO - Created CSV: 2024-05-07T13_00_59_p16_ccf_all_params_file.csv
+2025-08-01 17:16:11,562 - INFO - Progress: 31/49 completed
+2025-08-01 17:16:11,562 - INFO - Processing subfolder 32/49: 20240508
+2025-08-01 17:16:11,562 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240508
+2025-08-01 17:16:11,562 - INFO - Timeout set to 300 seconds
+2025-08-01 17:19:43,541 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240508
+2025-08-01 17:19:43,541 - INFO - Created CSV: 2024-05-08T11_53_16_p16_ccf_all_params_file.csv
+2025-08-01 17:19:43,542 - INFO - Progress: 32/49 completed
+2025-08-01 17:19:43,542 - INFO - Processing subfolder 33/49: 20240509
+2025-08-01 17:19:43,542 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240509
+2025-08-01 17:19:43,542 - INFO - Timeout set to 300 seconds
+2025-08-01 17:23:17,311 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240509
+2025-08-01 17:23:17,312 - INFO - Created CSV: 2024-05-09T12_40_58_p16_ccf_all_params_file.csv
+2025-08-01 17:23:17,312 - INFO - Progress: 33/49 completed
+2025-08-01 17:23:17,312 - INFO - Processing subfolder 34/49: 20240510
+2025-08-01 17:23:17,313 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240510
+2025-08-01 17:23:17,313 - INFO - Timeout set to 300 seconds
+2025-08-01 17:26:49,805 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240510
+2025-08-01 17:26:49,805 - INFO - Created CSV: 2024-05-10T11_48_40_p16_ccf_all_params_file.csv
+2025-08-01 17:26:49,805 - INFO - Progress: 34/49 completed
+2025-08-01 17:26:49,805 - INFO - Processing subfolder 35/49: 20240513
+2025-08-01 17:26:49,806 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240513
+2025-08-01 17:26:49,806 - INFO - Timeout set to 300 seconds
+2025-08-01 17:29:19,310 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240513
+2025-08-01 17:29:19,310 - INFO - Created CSV: 2024-05-13T11_32_44_p18_ccf_all_params_file.csv
+2025-08-01 17:29:19,311 - INFO - Progress: 35/49 completed
+2025-08-01 17:29:19,311 - INFO - Processing subfolder 36/49: 20240514
+2025-08-01 17:29:19,311 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240514
+2025-08-01 17:29:19,311 - INFO - Timeout set to 300 seconds
+2025-08-01 17:33:45,902 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240514
+2025-08-01 17:33:45,903 - INFO - Created CSV: 2024-05-14T11_55_40_p18_ccf_all_params_file.csv
+2025-08-01 17:33:45,903 - INFO - Progress: 36/49 completed
+2025-08-01 17:33:45,904 - INFO - Processing subfolder 37/49: 20240515
+2025-08-01 17:33:45,904 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240515
+2025-08-01 17:33:45,904 - INFO - Timeout set to 300 seconds
+2025-08-01 17:37:48,081 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240515
+2025-08-01 17:37:48,081 - INFO - Created CSV: 2024-05-15T11_44_45_p18_ccf_all_params_file.csv
+2025-08-01 17:37:48,081 - INFO - Progress: 37/49 completed
+2025-08-01 17:37:48,081 - INFO - Processing subfolder 38/49: 20240516
+2025-08-01 17:37:48,081 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240516
+2025-08-01 17:37:48,082 - INFO - Timeout set to 300 seconds
+2025-08-01 17:42:18,657 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240516
+2025-08-01 17:42:18,657 - INFO - Created CSV: 2024-05-16T11_26_37_p18_ccf_all_params_file.csv
+2025-08-01 17:42:18,658 - INFO - Progress: 38/49 completed
+2025-08-01 17:42:18,658 - INFO - Processing subfolder 39/49: 20240520
+2025-08-01 17:42:18,658 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240520
+2025-08-01 17:42:18,658 - INFO - Timeout set to 300 seconds
+2025-08-01 17:45:32,781 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240520
+2025-08-01 17:45:32,782 - INFO - Created CSV: 2024-05-20T12_29_48_p16_ccf_all_params_file.csv
+2025-08-01 17:45:32,782 - INFO - Progress: 39/49 completed
+2025-08-01 17:45:32,782 - INFO - Processing subfolder 40/49: 20240521
+2025-08-01 17:45:32,782 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240521
+2025-08-01 17:45:32,783 - INFO - Timeout set to 300 seconds
+2025-08-01 17:49:02,957 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240521
+2025-08-01 17:49:02,957 - INFO - Created CSV: 2024-05-21T10_06_06_p16_ccf_all_params_file.csv
+2025-08-01 17:49:02,958 - INFO - Progress: 40/49 completed
+2025-08-01 17:49:02,958 - INFO - Processing subfolder 41/49: 20240522
+2025-08-01 17:49:02,958 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240522
+2025-08-01 17:49:02,958 - INFO - Timeout set to 300 seconds
+2025-08-01 17:53:03,409 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240522
+2025-08-01 17:53:03,409 - INFO - Created CSV: 2024-05-22T10_32_17_p16_ccf_all_params_file.csv
+2025-08-01 17:53:03,409 - INFO - Progress: 41/49 completed
+2025-08-01 17:53:03,410 - INFO - Processing subfolder 42/49: 20240523
+2025-08-01 17:53:03,410 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240523
+2025-08-01 17:53:03,410 - INFO - Timeout set to 300 seconds
+2025-08-01 17:56:41,442 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240523
+2025-08-01 17:56:41,442 - INFO - Created CSV: 2024-05-23T11_35_13_p16_ccf_all_params_file.csv
+2025-08-01 17:56:41,442 - INFO - Progress: 42/49 completed
+2025-08-01 17:56:41,443 - INFO - Processing subfolder 43/49: 20240524
+2025-08-01 17:56:41,443 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240524
+2025-08-01 17:56:41,443 - INFO - Timeout set to 300 seconds
+2025-08-01 17:59:53,435 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240524
+2025-08-01 17:59:53,435 - INFO - Created CSV: 2024-05-24T11_34_36_p16_ccf_all_params_file.csv
+2025-08-01 17:59:53,436 - INFO - Progress: 43/49 completed
+2025-08-01 17:59:53,436 - INFO - Processing subfolder 44/49: 20240528
+2025-08-01 17:59:53,436 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240528
+2025-08-01 17:59:53,437 - INFO - Timeout set to 300 seconds
+2025-08-01 18:03:08,069 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240528
+2025-08-01 18:03:08,070 - INFO - Created CSV: 2024-05-28T11_31_05_p18_ccf_all_params_file.csv
+2025-08-01 18:03:08,070 - INFO - Progress: 44/49 completed
+2025-08-01 18:03:08,070 - INFO - Processing subfolder 45/49: dataset_for_mcn_2024
+2025-08-01 18:03:08,071 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\dataset_for_mcn_2024
+2025-08-01 18:03:08,071 - INFO - Timeout set to 300 seconds
+2025-08-01 18:03:08,925 - ERROR - Script completed but no CSV output found in C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\dataset_for_mcn_2024
+2025-08-01 18:03:08,926 - INFO - Progress: 45/49 completed
+2025-08-01 18:03:08,926 - INFO - Processing subfolder 46/49: p16p17p18_location_inputs
+2025-08-01 18:03:08,926 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\p16p17p18_location_inputs
+2025-08-01 18:03:08,927 - INFO - Timeout set to 300 seconds
+2025-08-01 18:03:09,750 - ERROR - Script completed but no CSV output found in C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\p16p17p18_location_inputs
+2025-08-01 18:03:09,750 - INFO - Progress: 46/49 completed
+2025-08-01 18:03:09,751 - INFO - Processing subfolder 47/49: script_testing_delete
+2025-08-01 18:03:09,751 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\script_testing_delete
+2025-08-01 18:03:09,751 - INFO - Timeout set to 300 seconds
+2025-08-01 18:04:37,404 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\script_testing_delete
+2025-08-01 18:04:37,404 - INFO - Created CSV: 2024-04-29T11_26_47_p17_ccf_all_params_file.csv
+2025-08-01 18:04:37,404 - INFO - Progress: 47/49 completed
+2025-08-01 18:04:37,404 - INFO - Processing subfolder 48/49: 20240222
+2025-08-01 18:04:37,405 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240222
+2025-08-01 18:04:37,405 - INFO - Timeout set to 300 seconds
+2025-08-01 18:10:31,940 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\20240222
+2025-08-01 18:10:31,940 - INFO - Created CSV: 2024-02-22T09_46_32_ p16_ccf_all_params_file.csv
+2025-08-01 18:10:31,941 - INFO - Progress: 48/49 completed
+2025-08-01 18:10:31,941 - INFO - Processing subfolder 49/49: plots
+2025-08-01 18:10:31,941 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\plots
+2025-08-01 18:10:31,941 - INFO - Timeout set to 300 seconds
+2025-08-01 18:10:32,821 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\plots
+2025-08-01 18:10:32,821 - INFO - Created CSV: 2024-02-22T09_46_32_p16_ccf_all_params_file.csv
+2025-08-01 18:10:32,821 - INFO - Progress: 49/49 completed
+2025-08-01 18:10:32,823 - WARNING - Some subfolders failed to process. Check the log for details.
+2025-08-06 10:52:37,734 - INFO - Starting batch processing
+2025-08-06 10:52:37,736 - INFO - Parent folder: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p34p35p36p37p38
+2025-08-06 10:52:37,736 - INFO - Output folder: Results will be saved in each respective subfolder
+2025-08-06 10:52:37,736 - INFO - Timeout per subfolder: 300 seconds
+2025-08-06 10:52:37,736 - INFO - Found processing script at: C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py
+2025-08-06 10:52:50,129 - INFO - Processing subfolder 1/2: 20250804
+2025-08-06 10:52:50,129 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p34p35p36p37p38\20250804
+2025-08-06 10:52:50,130 - INFO - Timeout set to 300 seconds
+2025-08-06 10:57:07,689 - ERROR - Script completed but no CSV output found in C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p34p35p36p37p38\20250804
+2025-08-06 10:57:07,689 - INFO - Progress: 1/2 completed
+2025-08-06 10:57:07,690 - INFO - Processing subfolder 2/2: New folder (2)
+2025-08-06 10:57:07,690 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p34p35p36p37p38\New folder (2)
+2025-08-06 10:57:07,691 - INFO - Timeout set to 300 seconds
+2025-08-06 10:57:08,823 - ERROR - Script completed but no CSV output found in C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p34p35p36p37p38\New folder (2)
+2025-08-06 10:57:08,824 - INFO - Progress: 2/2 completed
+2025-08-06 10:57:08,826 - WARNING - Some subfolders failed to process. Check the log for details.
+2025-08-07 16:41:34,854 - INFO - Starting batch processing
+2025-08-07 16:41:34,854 - INFO - Parent folder: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p34p35p36p37p38
+2025-08-07 16:41:34,854 - INFO - Output folder: Results will be saved in each respective subfolder
+2025-08-07 16:41:34,854 - INFO - Timeout per subfolder: 300 seconds
+2025-08-07 16:41:34,855 - INFO - Found processing script at: C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py
+2025-08-07 16:41:48,134 - INFO - Processing subfolder 1/4: 20250804
+2025-08-07 16:41:48,134 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p34p35p36p37p38\20250804
+2025-08-07 16:41:48,136 - INFO - Timeout set to 300 seconds
+2025-08-07 16:44:44,953 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p34p35p36p37p38\20250804
+2025-08-07 16:44:44,953 - INFO - Created CSV: 2025-08-04T11_22_43_p38_ccf_all_params_file.csv
+2025-08-07 16:44:44,954 - INFO - Progress: 1/4 completed
+2025-08-07 16:44:44,954 - INFO - Processing subfolder 2/4: 20250805
+2025-08-07 16:44:44,954 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p34p35p36p37p38\20250805
+2025-08-07 16:44:44,954 - INFO - Timeout set to 300 seconds
+2025-08-07 16:44:45,847 - ERROR - Script completed but no CSV output found in C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p34p35p36p37p38\20250805
+2025-08-07 16:44:45,847 - INFO - Progress: 2/4 completed
+2025-08-07 16:44:45,847 - INFO - Processing subfolder 3/4: 20250806
+2025-08-07 16:44:45,847 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p34p35p36p37p38\20250806
+2025-08-07 16:44:45,847 - INFO - Timeout set to 300 seconds
+2025-08-07 16:44:46,680 - ERROR - Script completed but no CSV output found in C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p34p35p36p37p38\20250806
+2025-08-07 16:44:46,680 - INFO - Progress: 3/4 completed
+2025-08-07 16:44:46,680 - INFO - Processing subfolder 4/4: 20250807
+2025-08-07 16:44:46,681 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p34p35p36p37p38\20250807
+2025-08-07 16:44:46,681 - INFO - Timeout set to 300 seconds
+2025-08-07 16:44:47,521 - ERROR - Script completed but no CSV output found in C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p34p35p36p37p38\20250807
+2025-08-07 16:44:47,522 - INFO - Progress: 4/4 completed
+2025-08-07 16:44:47,523 - WARNING - Some subfolders failed to process. Check the log for details.
+2025-08-07 17:17:48,907 - INFO - Starting batch processing
+2025-08-07 17:17:48,908 - INFO - Parent folder: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p34p35p36p37p38
+2025-08-07 17:17:48,908 - INFO - Output folder: Results will be saved in each respective subfolder
+2025-08-07 17:17:48,908 - INFO - Timeout per subfolder: 300 seconds
+2025-08-07 17:17:48,908 - INFO - Found processing script at: C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py
+2025-08-07 17:17:53,826 - INFO - Processing subfolder 1/3: 20250805
+2025-08-07 17:17:53,826 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p34p35p36p37p38\20250805
+2025-08-07 17:17:53,827 - INFO - Timeout set to 300 seconds
+2025-08-07 17:23:44,374 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p34p35p36p37p38\20250805
+2025-08-07 17:23:44,375 - INFO - Created CSV: 2025-08-05T11_38_48_p37_ccf_all_params_file.csv
+2025-08-07 17:23:44,375 - INFO - Progress: 1/3 completed
+2025-08-07 17:23:44,375 - INFO - Processing subfolder 2/3: 20250806
+2025-08-07 17:23:44,376 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p34p35p36p37p38\20250806
+2025-08-07 17:23:44,376 - INFO - Timeout set to 300 seconds
+2025-08-07 17:29:47,373 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p34p35p36p37p38\20250806
+2025-08-07 17:29:47,374 - INFO - Created CSV: 2025-08-06T09_55_17_p38_ccf_all_params_file.csv
+2025-08-07 17:29:47,374 - INFO - Progress: 2/3 completed
+2025-08-07 17:29:47,374 - INFO - Processing subfolder 3/3: 20250807
+2025-08-07 17:29:47,374 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p34p35p36p37p38\20250807
+2025-08-07 17:29:47,375 - INFO - Timeout set to 300 seconds
+2025-08-07 17:34:42,420 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p34p35p36p37p38\20250807
+2025-08-07 17:34:42,421 - INFO - Created CSV: 2025-08-07T11_49_30_p38_ccf_all_params_file.csv
+2025-08-07 17:34:42,421 - INFO - Progress: 3/3 completed
+2025-08-07 17:34:42,422 - INFO - All selected subfolders processed successfully!
+2025-08-14 12:31:41,971 - INFO - Starting batch processing
+2025-08-14 12:31:41,972 - INFO - Parent folder: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p34p35p36p37p38
+2025-08-14 12:31:41,972 - INFO - Output folder: Results will be saved in each respective subfolder
+2025-08-14 12:31:41,972 - INFO - Timeout per subfolder: 300 seconds
+2025-08-14 12:31:41,973 - INFO - Found processing script at: C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py
+2025-08-14 12:31:47,653 - INFO - Processing subfolder 1/3: 20250811
+2025-08-14 12:31:47,654 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p34p35p36p37p38\20250811
+2025-08-14 12:31:47,654 - INFO - Timeout set to 300 seconds
+2025-08-14 12:38:52,621 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p34p35p36p37p38\20250811
+2025-08-14 12:38:52,622 - INFO - Created CSV: 2025-08-11T11_49_44_p35_ccf_all_params_file.csv
+2025-08-14 12:38:52,622 - INFO - Progress: 1/3 completed
+2025-08-14 12:38:52,622 - INFO - Processing subfolder 2/3: 20250812
+2025-08-14 12:38:52,623 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p34p35p36p37p38\20250812
+2025-08-14 12:38:52,624 - INFO - Timeout set to 300 seconds
+2025-08-14 12:43:13,873 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p34p35p36p37p38\20250812
+2025-08-14 12:43:13,873 - INFO - Created CSV: 2025-08-12T09_54_12_p35_ccf_all_params_file.csv
+2025-08-14 12:43:13,874 - INFO - Progress: 2/3 completed
+2025-08-14 12:43:13,874 - INFO - Processing subfolder 3/3: 20250813
+2025-08-14 12:43:13,875 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p34p35p36p37p38\20250813
+2025-08-14 12:43:13,875 - INFO - Timeout set to 300 seconds
+2025-08-14 12:47:06,107 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p34p35p36p37p38\20250813
+2025-08-14 12:47:06,107 - INFO - Created CSV: 2025-08-13T10_21_55_p35_ccf_all_params_file.csv
+2025-08-14 12:47:06,108 - INFO - Progress: 3/3 completed
+2025-08-14 12:47:06,109 - INFO - All selected subfolders processed successfully!
+2025-08-21 11:34:24,851 - INFO - Starting batch processing
+2025-08-21 11:34:24,852 - INFO - Parent folder: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p34p35p36p37p38
+2025-08-21 11:34:24,852 - INFO - Output folder: Results will be saved in each respective subfolder
+2025-08-21 11:34:24,852 - INFO - Timeout per subfolder: 300 seconds
+2025-08-21 11:34:24,853 - INFO - Found processing script at: C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py
+2025-08-21 11:34:33,713 - INFO - Processing subfolder 1/5: 20250815
+2025-08-21 11:34:33,715 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p34p35p36p37p38\20250815
+2025-08-21 11:34:33,715 - INFO - Timeout set to 300 seconds
+2025-08-21 11:40:27,689 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p34p35p36p37p38\20250815
+2025-08-21 11:40:27,689 - INFO - Created CSV: 2025-08-15T12_00_48_p35_ccf_all_params_file.csv
+2025-08-21 11:40:27,690 - INFO - Progress: 1/5 completed
+2025-08-21 11:40:27,690 - INFO - Processing subfolder 2/5: 20250816
+2025-08-21 11:40:27,690 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p34p35p36p37p38\20250816
+2025-08-21 11:40:27,690 - INFO - Timeout set to 300 seconds
+2025-08-21 11:48:00,935 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p34p35p36p37p38\20250816
+2025-08-21 11:48:00,935 - INFO - Created CSV: 2025-08-16T09_59_52_p35_ccf_all_params_file.csv
+2025-08-21 11:48:00,935 - INFO - Progress: 2/5 completed
+2025-08-21 11:48:00,936 - INFO - Processing subfolder 3/5: 20250818
+2025-08-21 11:48:00,936 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p34p35p36p37p38\20250818
+2025-08-21 11:48:00,936 - INFO - Timeout set to 300 seconds
+2025-08-21 11:53:20,758 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p34p35p36p37p38\20250818
+2025-08-21 11:53:20,758 - INFO - Created CSV: 2025-08-18T12_46_30_p35_ccf_all_params_file.csv
+2025-08-21 11:53:20,759 - INFO - Progress: 3/5 completed
+2025-08-21 11:53:20,759 - INFO - Processing subfolder 4/5: 20250819
+2025-08-21 11:53:20,759 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p34p35p36p37p38\20250819
+2025-08-21 11:53:20,759 - INFO - Timeout set to 300 seconds
+2025-08-21 12:00:19,837 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p34p35p36p37p38\20250819
+2025-08-21 12:00:19,838 - INFO - Created CSV: 2025-08-19T11_14_38_p35_ccf_all_params_file.csv
+2025-08-21 12:00:19,838 - INFO - Progress: 4/5 completed
+2025-08-21 12:00:19,838 - INFO - Processing subfolder 5/5: 20250820
+2025-08-21 12:00:19,839 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p34p35p36p37p38\20250820
+2025-08-21 12:00:19,839 - INFO - Timeout set to 300 seconds
+2025-08-21 12:03:11,321 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p34p35p36p37p38\20250820
+2025-08-21 12:03:11,322 - INFO - Created CSV: 2025-08-20T10_16_23_p35_ccf_all_params_file.csv
+2025-08-21 12:03:11,322 - INFO - Progress: 5/5 completed
+2025-08-21 12:03:11,323 - INFO - All selected subfolders processed successfully!
+2025-08-21 12:33:36,678 - INFO - Starting batch processing
+2025-08-21 12:33:36,678 - INFO - Parent folder: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p34p35p36p37p38
+2025-08-21 12:33:36,679 - INFO - Output folder: Results will be saved in each respective subfolder
+2025-08-21 12:33:36,679 - INFO - Timeout per subfolder: 300 seconds
+2025-08-21 12:33:36,679 - INFO - Found processing script at: C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py
+2025-08-21 12:33:42,034 - INFO - Processing subfolder 1/1: 20250819
+2025-08-21 12:33:42,035 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p34p35p36p37p38\20250819
+2025-08-21 12:33:42,035 - INFO - Timeout set to 300 seconds
+2025-08-21 12:40:24,474 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p34p35p36p37p38\20250819
+2025-08-21 12:40:24,474 - INFO - Created CSV: 2025-08-19T11_14_38_p35_ccf_all_params_file.csv
+2025-08-21 12:40:24,474 - INFO - Progress: 1/1 completed
+2025-08-21 12:40:24,475 - INFO - All selected subfolders processed successfully!
+2025-09-04 12:01:33,867 - INFO - Starting batch processing
+2025-09-04 12:01:33,868 - INFO - Parent folder: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p34p35p36p37p38
+2025-09-04 12:01:33,868 - INFO - Output folder: Results will be saved in each respective subfolder
+2025-09-04 12:01:33,868 - INFO - Timeout per subfolder: 300 seconds
+2025-09-04 12:01:33,869 - INFO - Found processing script at: C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py
+2025-09-04 12:01:44,468 - INFO - Processing subfolder 1/8: 20250821
+2025-09-04 12:01:44,468 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p34p35p36p37p38\20250821
+2025-09-04 12:01:44,468 - INFO - Timeout set to 300 seconds
+2025-09-04 12:07:03,408 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p34p35p36p37p38\20250821
+2025-09-04 12:07:03,408 - INFO - Created CSV: 2025-08-21T10_22_28_p35_ccf_all_params_file.csv
+2025-09-04 12:07:03,408 - INFO - Progress: 1/8 completed
+2025-09-04 12:07:03,408 - INFO - Processing subfolder 2/8: 20250822
+2025-09-04 12:07:03,409 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p34p35p36p37p38\20250822
+2025-09-04 12:07:03,409 - INFO - Timeout set to 300 seconds
+2025-09-04 12:12:34,594 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p34p35p36p37p38\20250822
+2025-09-04 12:12:34,594 - INFO - Created CSV: 2025-08-22T12_23_47_p35_ccf_all_params_file.csv
+2025-09-04 12:12:34,594 - INFO - Progress: 2/8 completed
+2025-09-04 12:12:34,595 - INFO - Processing subfolder 3/8: 20250825
+2025-09-04 12:12:34,595 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p34p35p36p37p38\20250825
+2025-09-04 12:12:34,595 - INFO - Timeout set to 300 seconds
+2025-09-04 12:18:58,483 - ERROR - Script completed but no CSV output found in C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p34p35p36p37p38\20250825
+2025-09-04 12:18:58,483 - INFO - Progress: 3/8 completed
+2025-09-04 12:18:58,484 - INFO - Processing subfolder 4/8: 20250826
+2025-09-04 12:18:58,484 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p34p35p36p37p38\20250826
+2025-09-04 12:18:58,485 - INFO - Timeout set to 300 seconds
+2025-09-04 12:23:26,046 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p34p35p36p37p38\20250826
+2025-09-04 12:23:26,046 - INFO - Created CSV: 2025-08-26T12_50_43_p35_ccf_all_params_file.csv
+2025-09-04 12:23:26,046 - INFO - Progress: 4/8 completed
+2025-09-04 12:23:26,047 - INFO - Processing subfolder 5/8: 20250827
+2025-09-04 12:23:26,047 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p34p35p36p37p38\20250827
+2025-09-04 12:23:26,047 - INFO - Timeout set to 300 seconds
+2025-09-04 12:28:09,005 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p34p35p36p37p38\20250827
+2025-09-04 12:28:09,006 - INFO - Created CSV: 2025-08-27T12_39_32_p35_ccf_all_params_file.csv
+2025-09-04 12:28:09,006 - INFO - Progress: 5/8 completed
+2025-09-04 12:28:09,006 - INFO - Processing subfolder 6/8: 20250828
+2025-09-04 12:28:09,006 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p34p35p36p37p38\20250828
+2025-09-04 12:28:09,008 - INFO - Timeout set to 300 seconds
+2025-09-04 12:34:46,722 - ERROR - Script completed but no CSV output found in C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p34p35p36p37p38\20250828
+2025-09-04 12:34:46,723 - INFO - Progress: 6/8 completed
+2025-09-04 12:34:46,724 - INFO - Processing subfolder 7/8: 20250902
+2025-09-04 12:34:46,724 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p34p35p36p37p38\20250902
+2025-09-04 12:34:46,724 - INFO - Timeout set to 300 seconds
+2025-09-04 12:39:22,183 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p34p35p36p37p38\20250902
+2025-09-04 12:39:22,184 - INFO - Created CSV: 2025-09-02T11_13_31_p36_ccf_all_params_file.csv
+2025-09-04 12:39:22,184 - INFO - Progress: 7/8 completed
+2025-09-04 12:39:22,184 - INFO - Processing subfolder 8/8: 20250903
+2025-09-04 12:39:22,185 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p34p35p36p37p38\20250903
+2025-09-04 12:39:22,185 - INFO - Timeout set to 300 seconds
+2025-09-04 12:43:50,864 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p34p35p36p37p38\20250903
+2025-09-04 12:43:50,865 - INFO - Created CSV: 2025-09-03T12_01_33_p36_ccf_all_params_file.csv
+2025-09-04 12:43:50,865 - INFO - Progress: 8/8 completed
+2025-09-04 12:43:50,866 - WARNING - Some subfolders failed to process. Check the log for details.
+2025-09-04 12:45:54,341 - INFO - Starting batch processing
+2025-09-04 12:45:54,342 - INFO - Parent folder: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p34p35p36p37p38
+2025-09-04 12:45:54,342 - INFO - Output folder: Results will be saved in each respective subfolder
+2025-09-04 12:45:54,342 - INFO - Timeout per subfolder: 300 seconds
+2025-09-04 12:45:54,342 - INFO - Found processing script at: C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py
+2025-09-04 12:45:57,791 - INFO - Processing subfolder 1/2: 20250825
+2025-09-04 12:45:57,792 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p34p35p36p37p38\20250825
+2025-09-04 12:45:57,792 - INFO - Timeout set to 300 seconds
+2025-09-04 12:53:42,378 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p34p35p36p37p38\20250825
+2025-09-04 12:53:42,379 - INFO - Created CSV: 2025-08-25T12_03_43_p35_ccf_all_params_file.csv
+2025-09-04 12:53:42,379 - INFO - Progress: 1/2 completed
+2025-09-04 12:53:42,379 - INFO - Processing subfolder 2/2: 20250828
+2025-09-04 12:53:42,380 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p34p35p36p37p38\20250828
+2025-09-04 12:53:42,380 - INFO - Timeout set to 300 seconds
+2025-09-04 13:02:30,359 - ERROR - Script completed but no CSV output found in C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p34p35p36p37p38\20250828
+2025-09-04 13:02:30,359 - INFO - Progress: 2/2 completed
+2025-09-04 13:02:30,360 - WARNING - Some subfolders failed to process. Check the log for details.
+2025-09-09 09:54:23,606 - INFO - Starting batch processing
+2025-09-09 09:54:23,606 - INFO - Parent folder: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p34p35p36p37p38
+2025-09-09 09:54:23,607 - INFO - Output folder: Results will be saved in each respective subfolder
+2025-09-09 09:54:23,607 - INFO - Timeout per subfolder: 300 seconds
+2025-09-09 09:54:23,607 - INFO - Found processing script at: C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py
+2025-09-09 09:54:30,684 - INFO - Processing subfolder 1/2: 20250805
+2025-09-09 09:54:30,684 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p34p35p36p37p38\20250805
+2025-09-09 09:54:30,684 - INFO - Timeout set to 300 seconds
+2025-09-09 10:00:23,318 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p34p35p36p37p38\20250805
+2025-09-09 10:00:23,319 - INFO - Created CSV: 2025-08-05T10_01_32_p38_ccf_all_params_file.csv
+2025-09-09 10:00:23,319 - INFO - Progress: 1/2 completed
+2025-09-09 10:00:23,319 - INFO - Processing subfolder 2/2: 20250828
+2025-09-09 10:00:23,319 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p34p35p36p37p38\20250828
+2025-09-09 10:00:23,319 - INFO - Timeout set to 300 seconds
+2025-09-09 10:07:54,627 - ERROR - Script completed but no CSV output found in C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p34p35p36p37p38\20250828
+2025-09-09 10:07:54,628 - INFO - Progress: 2/2 completed
+2025-09-09 10:07:54,629 - WARNING - Some subfolders failed to process. Check the log for details.
+2025-09-09 12:32:43,193 - INFO - Starting batch processing
+2025-09-09 12:32:43,193 - INFO - Parent folder: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21
+2025-09-09 12:32:43,194 - INFO - Output folder: Results will be saved in each respective subfolder
+2025-09-09 12:32:43,194 - INFO - Timeout per subfolder: 300 seconds
+2025-09-09 12:32:43,194 - INFO - Found processing script at: C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py
+2025-09-09 12:32:52,679 - INFO - Processing subfolder 1/60: 20240606
+2025-09-09 12:32:52,680 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240606
+2025-09-09 12:32:52,680 - INFO - Timeout set to 300 seconds
+2025-09-09 12:36:25,014 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240606
+2025-09-09 12:36:25,014 - INFO - Created CSV: 2024-06-06T10_24_26_p20_ccf_all_params_file.csv
+2025-09-09 12:36:25,015 - INFO - Progress: 1/60 completed
+2025-09-09 12:36:25,016 - INFO - Processing subfolder 2/60: 20240611
+2025-09-09 12:36:25,016 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240611
+2025-09-09 12:36:25,016 - INFO - Timeout set to 300 seconds
+2025-09-09 12:37:59,266 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240611
+2025-09-09 12:37:59,268 - INFO - Created CSV: 2024-06-11T14_23_02_p21_ccf_all_params_file.csv
+2025-09-09 12:37:59,268 - INFO - Progress: 2/60 completed
+2025-09-09 12:37:59,268 - INFO - Processing subfolder 3/60: 20240612
+2025-09-09 12:37:59,268 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240612
+2025-09-09 12:37:59,268 - INFO - Timeout set to 300 seconds
+2025-09-09 12:38:53,787 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240612
+2025-09-09 12:38:53,787 - INFO - Created CSV: 2024-06-12T11_54_37_p21_ccf_all_params_file.csv
+2025-09-09 12:38:53,787 - INFO - Progress: 3/60 completed
+2025-09-09 12:38:53,787 - INFO - Processing subfolder 4/60: 20240620
+2025-09-09 12:38:53,787 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240620
+2025-09-09 12:38:53,787 - INFO - Timeout set to 300 seconds
+2025-09-09 12:41:02,990 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240620
+2025-09-09 12:41:02,990 - INFO - Created CSV: 2024-06-20T12_00_33_p20_ccf_all_params_file.csv
+2025-09-09 12:41:02,991 - INFO - Progress: 4/60 completed
+2025-09-09 12:41:02,991 - INFO - Processing subfolder 5/60: 20240625
+2025-09-09 12:41:02,991 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240625
+2025-09-09 12:41:02,991 - INFO - Timeout set to 300 seconds
+2025-09-09 12:42:45,703 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240625
+2025-09-09 12:42:45,704 - INFO - Created CSV: 2024-06-25T10_15_16_p20_ccf_all_params_file.csv
+2025-09-09 12:42:45,704 - INFO - Progress: 5/60 completed
+2025-09-09 12:42:45,704 - INFO - Processing subfolder 6/60: 20240627
+2025-09-09 12:42:45,704 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240627
+2025-09-09 12:42:45,704 - INFO - Timeout set to 300 seconds
+2025-09-09 12:46:31,159 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240627
+2025-09-09 12:46:31,160 - INFO - Created CSV: 2024-06-27T10_03_29_p19_ccf_all_params_file.csv
+2025-09-09 12:46:31,160 - INFO - Progress: 6/60 completed
+2025-09-09 12:46:31,161 - INFO - Processing subfolder 7/60: 20240628
+2025-09-09 12:46:31,161 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240628
+2025-09-09 12:46:31,161 - INFO - Timeout set to 300 seconds
+2025-09-09 12:51:19,009 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240628
+2025-09-09 12:51:19,010 - INFO - Created CSV: 2024-06-28T09_46_36_p19_ccf_all_params_file.csv
+2025-09-09 12:51:19,010 - INFO - Progress: 7/60 completed
+2025-09-09 12:51:19,010 - INFO - Processing subfolder 8/60: 20240629
+2025-09-09 12:51:19,011 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240629
+2025-09-09 12:51:19,011 - INFO - Timeout set to 300 seconds
+2025-09-09 12:53:57,493 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240629
+2025-09-09 12:53:57,494 - INFO - Created CSV: 2024-06-29T12_15_15_p21_ccf_all_params_file.csv
+2025-09-09 12:53:57,494 - INFO - Progress: 8/60 completed
+2025-09-09 12:53:57,494 - INFO - Processing subfolder 9/60: 20240630
+2025-09-09 12:53:57,494 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240630
+2025-09-09 12:53:57,494 - INFO - Timeout set to 300 seconds
+2025-09-09 12:57:34,140 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240630
+2025-09-09 12:57:34,141 - INFO - Created CSV: 2024-06-30T10_26_18_p19_ccf_all_params_file.csv
+2025-09-09 12:57:34,141 - INFO - Progress: 9/60 completed
+2025-09-09 12:57:34,141 - INFO - Processing subfolder 10/60: 20240708
+2025-09-09 12:57:34,142 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240708
+2025-09-09 12:57:34,142 - INFO - Timeout set to 300 seconds
+2025-09-09 13:00:30,063 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240708
+2025-09-09 13:00:30,064 - INFO - Created CSV: 2024-07-08T11_39_06_p20_ccf_all_params_file.csv
+2025-09-09 13:00:30,064 - INFO - Progress: 10/60 completed
+2025-09-09 13:00:30,065 - INFO - Processing subfolder 11/60: 20240709
+2025-09-09 13:00:30,065 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240709
+2025-09-09 13:00:30,065 - INFO - Timeout set to 300 seconds
+2025-09-09 13:03:29,393 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240709
+2025-09-09 13:03:29,394 - INFO - Created CSV: 2024-07-09T12_00_20_p20_ccf_all_params_file.csv
+2025-09-09 13:03:29,394 - INFO - Progress: 11/60 completed
+2025-09-09 13:03:29,394 - INFO - Processing subfolder 12/60: 20240710
+2025-09-09 13:03:29,394 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240710
+2025-09-09 13:03:29,394 - INFO - Timeout set to 300 seconds
+2025-09-09 13:06:09,525 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240710
+2025-09-09 13:06:09,525 - INFO - Created CSV: 2024-07-10T12_05_11_p20_ccf_all_params_file.csv
+2025-09-09 13:06:09,526 - INFO - Progress: 12/60 completed
+2025-09-09 13:06:09,526 - INFO - Processing subfolder 13/60: 20240711
+2025-09-09 13:06:09,526 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240711
+2025-09-09 13:06:09,526 - INFO - Timeout set to 300 seconds
+2025-09-09 13:08:51,710 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240711
+2025-09-09 13:08:51,710 - INFO - Created CSV: 2024-07-11T12_33_24_p20_ccf_all_params_file.csv
+2025-09-09 13:08:51,711 - INFO - Progress: 13/60 completed
+2025-09-09 13:08:51,711 - INFO - Processing subfolder 14/60: 20240715
+2025-09-09 13:08:51,711 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240715
+2025-09-09 13:08:51,711 - INFO - Timeout set to 300 seconds
+2025-09-09 13:11:45,787 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240715
+2025-09-09 13:11:45,787 - INFO - Created CSV: 2024-07-15T10_16_58_p22_ccf_all_params_file.csv
+2025-09-09 13:11:45,787 - INFO - Progress: 14/60 completed
+2025-09-09 13:11:45,788 - INFO - Processing subfolder 15/60: 20240716
+2025-09-09 13:11:45,788 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240716
+2025-09-09 13:11:45,788 - INFO - Timeout set to 300 seconds
+2025-09-09 13:14:46,154 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240716
+2025-09-09 13:14:46,154 - INFO - Created CSV: 2024-07-16T09_38_26_p22_ccf_all_params_file.csv
+2025-09-09 13:14:46,156 - INFO - Progress: 15/60 completed
+2025-09-09 13:14:46,156 - INFO - Processing subfolder 16/60: 20240717
+2025-09-09 13:14:46,156 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240717
+2025-09-09 13:14:46,157 - INFO - Timeout set to 300 seconds
+2025-09-09 13:17:41,776 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240717
+2025-09-09 13:17:41,777 - INFO - Created CSV: 2024-07-17T09_54_35_p22_ccf_all_params_file.csv
+2025-09-09 13:17:41,777 - INFO - Progress: 16/60 completed
+2025-09-09 13:17:41,777 - INFO - Processing subfolder 17/60: 20240718
+2025-09-09 13:17:41,778 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240718
+2025-09-09 13:17:41,778 - INFO - Timeout set to 300 seconds
+2025-09-09 13:20:34,800 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240718
+2025-09-09 13:20:34,800 - INFO - Created CSV: 2024-07-18T09_59_08_p22_ccf_all_params_file.csv
+2025-09-09 13:20:34,800 - INFO - Progress: 17/60 completed
+2025-09-09 13:20:34,801 - INFO - Processing subfolder 18/60: 20240723
+2025-09-09 13:20:34,801 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240723
+2025-09-09 13:20:34,801 - INFO - Timeout set to 300 seconds
+2025-09-09 13:23:21,421 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240723
+2025-09-09 13:23:21,421 - INFO - Created CSV: 2024-07-23T09_54_30_p20_ccf_all_params_file.csv
+2025-09-09 13:23:21,421 - INFO - Progress: 18/60 completed
+2025-09-09 13:23:21,421 - INFO - Processing subfolder 19/60: 20240724
+2025-09-09 13:23:21,422 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240724
+2025-09-09 13:23:21,422 - INFO - Timeout set to 300 seconds
+2025-09-09 13:26:17,367 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240724
+2025-09-09 13:26:17,368 - INFO - Created CSV: 2024-07-24T11_46_54_p20_ccf_all_params_file.csv
+2025-09-09 13:26:17,368 - INFO - Progress: 19/60 completed
+2025-09-09 13:26:17,368 - INFO - Processing subfolder 20/60: 20240725
+2025-09-09 13:26:17,369 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240725
+2025-09-09 13:26:17,369 - INFO - Timeout set to 300 seconds
+2025-09-09 13:29:54,600 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240725
+2025-09-09 13:29:54,601 - INFO - Created CSV: 2024-07-25T12_00_56_p20_ccf_all_params_file.csv
+2025-09-09 13:29:54,601 - INFO - Progress: 20/60 completed
+2025-09-09 13:29:54,602 - INFO - Processing subfolder 21/60: 20240729
+2025-09-09 13:29:54,602 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240729
+2025-09-09 13:29:54,603 - INFO - Timeout set to 300 seconds
+2025-09-09 13:33:00,007 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240729
+2025-09-09 13:33:00,008 - INFO - Created CSV: 2024-07-29T11_46_51_p22_ccf_all_params_file.csv
+2025-09-09 13:33:00,009 - INFO - Progress: 21/60 completed
+2025-09-09 13:33:00,009 - INFO - Processing subfolder 22/60: 20240730
+2025-09-09 13:33:00,009 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240730
+2025-09-09 13:33:00,009 - INFO - Timeout set to 300 seconds
+2025-09-09 13:35:23,908 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240730
+2025-09-09 13:35:23,908 - INFO - Created CSV: 2024-07-30T14_00_55_p20_ccf_all_params_file.csv
+2025-09-09 13:35:23,909 - INFO - Progress: 22/60 completed
+2025-09-09 13:35:23,909 - INFO - Processing subfolder 23/60: 20240731
+2025-09-09 13:35:23,910 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240731
+2025-09-09 13:35:23,910 - INFO - Timeout set to 300 seconds
+2025-09-09 13:38:24,425 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240731
+2025-09-09 13:38:24,426 - INFO - Created CSV: 2024-07-31T11_39_36_p22_ccf_all_params_file.csv
+2025-09-09 13:38:24,426 - INFO - Progress: 23/60 completed
+2025-09-09 13:38:24,426 - INFO - Processing subfolder 24/60: 20240801
+2025-09-09 13:38:24,426 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240801
+2025-09-09 13:38:24,427 - INFO - Timeout set to 300 seconds
+2025-09-09 13:40:36,962 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240801
+2025-09-09 13:40:36,962 - INFO - Created CSV: 2024-08-01T11_42_19_p22_ccf_all_params_file.csv
+2025-09-09 13:40:36,962 - INFO - Progress: 24/60 completed
+2025-09-09 13:40:36,963 - INFO - Processing subfolder 25/60: 20240802
+2025-09-09 13:40:36,963 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240802
+2025-09-09 13:40:36,963 - INFO - Timeout set to 300 seconds
+2025-09-09 13:42:28,310 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240802
+2025-09-09 13:42:28,311 - INFO - Created CSV: 2024-08-02T12_22_52_p22_ccf_all_params_file.csv
+2025-09-09 13:42:28,311 - INFO - Progress: 25/60 completed
+2025-09-09 13:42:28,311 - INFO - Processing subfolder 26/60: 20240807
+2025-09-09 13:42:28,312 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240807
+2025-09-09 13:42:28,312 - INFO - Timeout set to 300 seconds
+2025-09-09 13:44:43,009 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240807
+2025-09-09 13:44:43,010 - INFO - Created CSV: 2024-08-07T11_43_20_p20_ccf_all_params_file.csv
+2025-09-09 13:44:43,010 - INFO - Progress: 26/60 completed
+2025-09-09 13:44:43,010 - INFO - Processing subfolder 27/60: 20240808
+2025-09-09 13:44:43,011 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240808
+2025-09-09 13:44:43,011 - INFO - Timeout set to 300 seconds
+2025-09-09 13:47:26,469 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240808
+2025-09-09 13:47:26,469 - INFO - Created CSV: 2024-08-08T12_23_09_p20_ccf_all_params_file.csv
+2025-09-09 13:47:26,469 - INFO - Progress: 27/60 completed
+2025-09-09 13:47:26,470 - INFO - Processing subfolder 28/60: 20240815
+2025-09-09 13:47:26,470 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240815
+2025-09-09 13:47:26,470 - INFO - Timeout set to 300 seconds
+2025-09-09 13:49:59,817 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240815
+2025-09-09 13:49:59,817 - INFO - Created CSV: 2024-08-15T12_10_54_p20_ccf_all_params_file.csv
+2025-09-09 13:49:59,817 - INFO - Progress: 28/60 completed
+2025-09-09 13:49:59,817 - INFO - Processing subfolder 29/60: 20240816
+2025-09-09 13:49:59,818 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240816
+2025-09-09 13:49:59,818 - INFO - Timeout set to 300 seconds
+2025-09-09 13:51:48,226 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240816
+2025-09-09 13:51:48,226 - INFO - Created CSV: 2024-08-16T10_36_46_p20_ccf_all_params_file.csv
+2025-09-09 13:51:48,227 - INFO - Progress: 29/60 completed
+2025-09-09 13:51:48,227 - INFO - Processing subfolder 30/60: 20240818
+2025-09-09 13:51:48,227 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240818
+2025-09-09 13:51:48,228 - INFO - Timeout set to 300 seconds
+2025-09-09 13:53:32,316 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240818
+2025-09-09 13:53:32,317 - INFO - Created CSV: 2024-08-18T10_10_08_p20_ccf_all_params_file.csv
+2025-09-09 13:53:32,317 - INFO - Progress: 30/60 completed
+2025-09-09 13:53:32,318 - INFO - Processing subfolder 31/60: 20240819
+2025-09-09 13:53:32,318 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240819
+2025-09-09 13:53:32,318 - INFO - Timeout set to 300 seconds
+2025-09-09 13:55:36,102 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240819
+2025-09-09 13:55:36,103 - INFO - Created CSV: 2024-08-19T12_11_38_p21_ccf_all_params_file.csv
+2025-09-09 13:55:36,103 - INFO - Progress: 31/60 completed
+2025-09-09 13:55:36,104 - INFO - Processing subfolder 32/60: 20240820
+2025-09-09 13:55:36,104 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240820
+2025-09-09 13:55:36,104 - INFO - Timeout set to 300 seconds
+2025-09-09 13:58:08,205 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240820
+2025-09-09 13:58:08,206 - INFO - Created CSV: 2024-08-20T11_39_39_p21_ccf_all_params_file.csv
+2025-09-09 13:58:08,206 - INFO - Progress: 32/60 completed
+2025-09-09 13:58:08,206 - INFO - Processing subfolder 33/60: 20240821
+2025-09-09 13:58:08,206 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240821
+2025-09-09 13:58:08,207 - INFO - Timeout set to 300 seconds
+2025-09-09 13:59:46,148 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240821
+2025-09-09 13:59:46,148 - INFO - Created CSV: 2024-08-21T11_43_11_p21_ccf_all_params_file.csv
+2025-09-09 13:59:46,148 - INFO - Progress: 33/60 completed
+2025-09-09 13:59:46,148 - INFO - Processing subfolder 34/60: 20240822
+2025-09-09 13:59:46,148 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240822
+2025-09-09 13:59:46,148 - INFO - Timeout set to 300 seconds
+2025-09-09 14:01:03,877 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240822
+2025-09-09 14:01:03,877 - INFO - Created CSV: 2024-08-22T12_11_42_p21_ccf_all_params_file.csv
+2025-09-09 14:01:03,878 - INFO - Progress: 34/60 completed
+2025-09-09 14:01:03,878 - INFO - Processing subfolder 35/60: 20240826
+2025-09-09 14:01:03,878 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240826
+2025-09-09 14:01:03,879 - INFO - Timeout set to 300 seconds
+2025-09-09 14:03:24,620 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240826
+2025-09-09 14:03:24,620 - INFO - Created CSV: 2024-08-26T12_08_19_p21_ccf_all_params_file.csv
+2025-09-09 14:03:24,621 - INFO - Progress: 35/60 completed
+2025-09-09 14:03:24,622 - INFO - Processing subfolder 36/60: 20240827
+2025-09-09 14:03:24,622 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240827
+2025-09-09 14:03:24,622 - INFO - Timeout set to 300 seconds
+2025-09-09 14:05:31,660 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240827
+2025-09-09 14:05:31,660 - INFO - Created CSV: 2024-08-27T11_49_21_p21_ccf_all_params_file.csv
+2025-09-09 14:05:31,661 - INFO - Progress: 36/60 completed
+2025-09-09 14:05:31,661 - INFO - Processing subfolder 37/60: 20240828
+2025-09-09 14:05:31,661 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240828
+2025-09-09 14:05:31,662 - INFO - Timeout set to 300 seconds
+2025-09-09 14:07:23,908 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240828
+2025-09-09 14:07:23,908 - INFO - Created CSV: 2024-08-28T11_51_24_p21_ccf_all_params_file.csv
+2025-09-09 14:07:23,908 - INFO - Progress: 37/60 completed
+2025-09-09 14:07:23,908 - INFO - Processing subfolder 38/60: 20240829
+2025-09-09 14:07:23,910 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240829
+2025-09-09 14:07:23,910 - INFO - Timeout set to 300 seconds
+2025-09-09 14:09:50,042 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240829
+2025-09-09 14:09:50,042 - INFO - Created CSV: 2024-08-29T11_41_31_p21_ccf_all_params_file.csv
+2025-09-09 14:09:50,042 - INFO - Progress: 38/60 completed
+2025-09-09 14:09:50,042 - INFO - Processing subfolder 39/60: 20240904
+2025-09-09 14:09:50,043 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240904
+2025-09-09 14:09:50,043 - INFO - Timeout set to 300 seconds
+2025-09-09 14:11:19,462 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240904
+2025-09-09 14:11:19,463 - INFO - Created CSV: 2024-09-04T12_11_51_p20_ccf_all_params_file.csv
+2025-09-09 14:11:19,463 - INFO - Progress: 39/60 completed
+2025-09-09 14:11:19,463 - INFO - Processing subfolder 40/60: 20240905
+2025-09-09 14:11:19,463 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240905
+2025-09-09 14:11:19,464 - INFO - Timeout set to 300 seconds
+2025-09-09 14:13:11,956 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240905
+2025-09-09 14:13:11,957 - INFO - Created CSV: 2024-09-05T12_07_27_p20_ccf_all_params_file.csv
+2025-09-09 14:13:11,957 - INFO - Progress: 40/60 completed
+2025-09-09 14:13:11,958 - INFO - Processing subfolder 41/60: 20240906
+2025-09-09 14:13:11,958 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240906
+2025-09-09 14:13:11,958 - INFO - Timeout set to 300 seconds
+2025-09-09 14:14:52,426 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240906
+2025-09-09 14:14:52,427 - INFO - Created CSV: 2024-09-06T11_57_57_p20_ccf_all_params_file.csv
+2025-09-09 14:14:52,427 - INFO - Progress: 41/60 completed
+2025-09-09 14:14:52,427 - INFO - Processing subfolder 42/60: 20240909
+2025-09-09 14:14:52,428 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240909
+2025-09-09 14:14:52,428 - INFO - Timeout set to 300 seconds
+2025-09-09 14:17:28,343 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240909
+2025-09-09 14:17:28,343 - INFO - Created CSV: 2024-09-09T11_45_18_p21_ccf_all_params_file.csv
+2025-09-09 14:17:28,344 - INFO - Progress: 42/60 completed
+2025-09-09 14:17:28,344 - INFO - Processing subfolder 43/60: 20240910
+2025-09-09 14:17:28,344 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240910
+2025-09-09 14:17:28,345 - INFO - Timeout set to 300 seconds
+2025-09-09 14:19:33,629 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240910
+2025-09-09 14:19:33,630 - INFO - Created CSV: 2024-09-10T11_49_51_p21_ccf_all_params_file.csv
+2025-09-09 14:19:33,630 - INFO - Progress: 43/60 completed
+2025-09-09 14:19:33,631 - INFO - Processing subfolder 44/60: 20240911
+2025-09-09 14:19:33,631 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240911
+2025-09-09 14:19:33,632 - INFO - Timeout set to 300 seconds
+2025-09-09 14:21:43,332 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240911
+2025-09-09 14:21:43,332 - INFO - Created CSV: 2024-09-11T11_47_26_p21_ccf_all_params_file.csv
+2025-09-09 14:21:43,332 - INFO - Progress: 44/60 completed
+2025-09-09 14:21:43,333 - INFO - Processing subfolder 45/60: 20240912
+2025-09-09 14:21:43,333 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240912
+2025-09-09 14:21:43,333 - INFO - Timeout set to 300 seconds
+2025-09-09 14:23:38,435 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240912
+2025-09-09 14:23:38,436 - INFO - Created CSV: 2024-09-12T11_54_24_p21_ccf_all_params_file.csv
+2025-09-09 14:23:38,436 - INFO - Progress: 45/60 completed
+2025-09-09 14:23:38,436 - INFO - Processing subfolder 46/60: 20240913
+2025-09-09 14:23:38,437 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240913
+2025-09-09 14:23:38,437 - INFO - Timeout set to 300 seconds
+2025-09-09 14:25:36,417 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240913
+2025-09-09 14:25:36,417 - INFO - Created CSV: 2024-09-13T12_05_03_p21_ccf_all_params_file.csv
+2025-09-09 14:25:36,418 - INFO - Progress: 46/60 completed
+2025-09-09 14:25:36,418 - INFO - Processing subfolder 47/60: 20240916
+2025-09-09 14:25:36,418 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240916
+2025-09-09 14:25:36,418 - INFO - Timeout set to 300 seconds
+2025-09-09 14:27:42,585 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240916
+2025-09-09 14:27:42,585 - INFO - Created CSV: 2024-09-16T11_53_57_p20_ccf_all_params_file.csv
+2025-09-09 14:27:42,585 - INFO - Progress: 47/60 completed
+2025-09-09 14:27:42,585 - INFO - Processing subfolder 48/60: 20240917
+2025-09-09 14:27:42,585 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240917
+2025-09-09 14:27:42,585 - INFO - Timeout set to 300 seconds
+2025-09-09 14:29:42,220 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240917
+2025-09-09 14:29:42,221 - INFO - Created CSV: 2024-09-17T12_09_51_p20_ccf_all_params_file.csv
+2025-09-09 14:29:42,221 - INFO - Progress: 48/60 completed
+2025-09-09 14:29:42,221 - INFO - Processing subfolder 49/60: 20240918
+2025-09-09 14:29:42,222 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240918
+2025-09-09 14:29:42,222 - INFO - Timeout set to 300 seconds
+2025-09-09 14:31:29,141 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240918
+2025-09-09 14:31:29,141 - INFO - Created CSV: 2024-09-18T11_53_15_p20_ccf_all_params_file.csv
+2025-09-09 14:31:29,142 - INFO - Progress: 49/60 completed
+2025-09-09 14:31:29,142 - INFO - Processing subfolder 50/60: 20240919
+2025-09-09 14:31:29,143 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240919
+2025-09-09 14:31:29,143 - INFO - Timeout set to 300 seconds
+2025-09-09 14:33:29,726 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240919
+2025-09-09 14:33:29,727 - INFO - Created CSV: 2024-09-19T11_57_17_p20_ccf_all_params_file.csv
+2025-09-09 14:33:29,727 - INFO - Progress: 50/60 completed
+2025-09-09 14:33:29,728 - INFO - Processing subfolder 51/60: 20240924
+2025-09-09 14:33:29,728 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240924
+2025-09-09 14:33:29,729 - INFO - Timeout set to 300 seconds
+2025-09-09 14:35:25,837 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240924
+2025-09-09 14:35:25,837 - INFO - Created CSV: 2024-09-24T12_05_45_p21_ccf_all_params_file.csv
+2025-09-09 14:35:25,838 - INFO - Progress: 51/60 completed
+2025-09-09 14:35:25,838 - INFO - Processing subfolder 52/60: 20240925
+2025-09-09 14:35:25,838 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240925
+2025-09-09 14:35:25,838 - INFO - Timeout set to 300 seconds
+2025-09-09 14:37:36,040 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240925
+2025-09-09 14:37:36,041 - INFO - Created CSV: 2024-09-25T11_59_36_p21_ccf_all_params_file.csv
+2025-09-09 14:37:36,041 - INFO - Progress: 52/60 completed
+2025-09-09 14:37:36,041 - INFO - Processing subfolder 53/60: 20240926
+2025-09-09 14:37:36,041 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240926
+2025-09-09 14:37:36,042 - INFO - Timeout set to 300 seconds
+2025-09-09 14:39:35,004 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240926
+2025-09-09 14:39:35,004 - INFO - Created CSV: 2024-09-26T11_48_46_p21_ccf_all_params_file.csv
+2025-09-09 14:39:35,004 - INFO - Progress: 53/60 completed
+2025-09-09 14:39:35,005 - INFO - Processing subfolder 54/60: 20240929
+2025-09-09 14:39:35,005 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240929
+2025-09-09 14:39:35,005 - INFO - Timeout set to 300 seconds
+2025-09-09 14:41:39,599 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240929
+2025-09-09 14:41:39,599 - INFO - Created CSV: 2024-09-29T14_14_59_p21_ccf_all_params_file.csv
+2025-09-09 14:41:39,600 - INFO - Progress: 54/60 completed
+2025-09-09 14:41:39,600 - INFO - Processing subfolder 55/60: 20240930
+2025-09-09 14:41:39,600 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240930
+2025-09-09 14:41:39,600 - INFO - Timeout set to 300 seconds
+2025-09-09 14:44:05,397 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240930
+2025-09-09 14:44:05,397 - INFO - Created CSV: 2024-09-30T11_47_15_p21_ccf_all_params_file.csv
+2025-09-09 14:44:05,398 - INFO - Progress: 55/60 completed
+2025-09-09 14:44:05,398 - INFO - Processing subfolder 56/60: 20241001
+2025-09-09 14:44:05,398 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20241001
+2025-09-09 14:44:05,398 - INFO - Timeout set to 300 seconds
+2025-09-09 14:46:58,618 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20241001
+2025-09-09 14:46:58,618 - INFO - Created CSV: 2024-10-01T11_42_24_p21_ccf_all_params_file.csv
+2025-09-09 14:46:58,619 - INFO - Progress: 56/60 completed
+2025-09-09 14:46:58,619 - INFO - Processing subfolder 57/60: 20241002
+2025-09-09 14:46:58,619 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20241002
+2025-09-09 14:46:58,619 - INFO - Timeout set to 300 seconds
+2025-09-09 14:49:02,544 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20241002
+2025-09-09 14:49:02,545 - INFO - Created CSV: 2024-10-02T10_07_49_p21_ccf_all_params_file.csv
+2025-09-09 14:49:02,545 - INFO - Progress: 57/60 completed
+2025-09-09 14:49:02,546 - INFO - Processing subfolder 58/60: 20241003
+2025-09-09 14:49:02,546 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20241003
+2025-09-09 14:49:02,546 - INFO - Timeout set to 300 seconds
+2025-09-09 14:50:45,862 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20241003
+2025-09-09 14:50:45,863 - INFO - Created CSV: 2024-10-03T09_14_12_p21_ccf_all_params_file.csv
+2025-09-09 14:50:45,863 - INFO - Progress: 58/60 completed
+2025-09-09 14:50:45,863 - INFO - Processing subfolder 59/60: p20p21_location_all_params
+2025-09-09 14:50:45,864 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\p20p21_location_all_params
+2025-09-09 14:50:45,864 - INFO - Timeout set to 300 seconds
+2025-09-09 14:50:46,655 - ERROR - Script completed but no CSV output found in C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\p20p21_location_all_params
+2025-09-09 14:50:46,656 - INFO - Progress: 59/60 completed
+2025-09-09 14:50:46,656 - INFO - Processing subfolder 60/60: tomerge
+2025-09-09 14:50:46,656 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\tomerge
+2025-09-09 14:50:46,656 - INFO - Timeout set to 300 seconds
+2025-09-09 14:51:50,261 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\tomerge
+2025-09-09 14:51:50,261 - INFO - Created CSV: 2024-07-30T12_56_06_p21_ccf_all_params_file.csv
+2025-09-09 14:51:50,262 - INFO - Progress: 60/60 completed
+2025-09-09 14:51:50,262 - WARNING - Some subfolders failed to process. Check the log for details.
+2025-09-10 09:14:49,653 - INFO - Starting batch processing
+2025-09-10 09:14:49,654 - INFO - Parent folder: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21
+2025-09-10 09:14:49,654 - INFO - Output folder: Results will be saved in each respective subfolder
+2025-09-10 09:14:49,654 - INFO - Timeout per subfolder: 300 seconds
+2025-09-10 09:14:49,654 - INFO - Found processing script at: C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py
+2025-09-10 09:14:59,569 - INFO - Processing subfolder 1/2: 20240612
+2025-09-10 09:14:59,569 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240612
+2025-09-10 09:14:59,570 - INFO - Timeout set to 300 seconds
+2025-09-10 09:16:32,353 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240612
+2025-09-10 09:16:32,354 - INFO - Created CSV: 2024-06-12T11_54_37_p21_ccf_all_params_file.csv
+2025-09-10 09:16:32,354 - INFO - Progress: 1/2 completed
+2025-09-10 09:16:32,354 - INFO - Processing subfolder 2/2: p20p21_location_all_params
+2025-09-10 09:16:32,355 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\p20p21_location_all_params
+2025-09-10 09:16:32,355 - INFO - Timeout set to 300 seconds
+2025-09-10 09:16:33,146 - ERROR - Script completed but no CSV output found in C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\p20p21_location_all_params
+2025-09-10 09:16:33,146 - INFO - Progress: 2/2 completed
+2025-09-10 09:16:33,147 - WARNING - Some subfolders failed to process. Check the log for details.
+2025-09-10 10:16:12,278 - INFO - Starting batch processing
+2025-09-10 10:16:12,278 - INFO - Parent folder: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21
+2025-09-10 10:16:12,279 - INFO - Output folder: Results will be saved in each respective subfolder
+2025-09-10 10:16:12,279 - INFO - Timeout per subfolder: 300 seconds
+2025-09-10 10:16:12,279 - INFO - Found processing script at: C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py
+2025-09-10 10:16:16,818 - INFO - Processing subfolder 1/2: 20240730
+2025-09-10 10:16:16,819 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240730
+2025-09-10 10:16:16,819 - INFO - Timeout set to 300 seconds
+2025-09-10 10:19:46,742 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240730
+2025-09-10 10:19:46,743 - INFO - Created CSV: 2024-07-30T12_56_06_p21_ccf_all_params_file.csv
+2025-09-10 10:19:46,743 - INFO - Progress: 1/2 completed
+2025-09-10 10:19:46,743 - INFO - Processing subfolder 2/2: p20p21_location_all_params
+2025-09-10 10:19:46,744 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\p20p21_location_all_params
+2025-09-10 10:19:46,744 - INFO - Timeout set to 300 seconds
+2025-09-10 10:19:47,566 - ERROR - Script completed but no CSV output found in C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\p20p21_location_all_params
+2025-09-10 10:19:47,566 - INFO - Progress: 2/2 completed
+2025-09-10 10:19:47,567 - WARNING - Some subfolders failed to process. Check the log for details.
+2025-09-10 10:25:26,382 - INFO - Starting batch processing
+2025-09-10 10:25:26,383 - INFO - Parent folder: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21
+2025-09-10 10:25:26,383 - INFO - Output folder: Results will be saved in each respective subfolder
+2025-09-10 10:25:26,383 - INFO - Timeout per subfolder: 300 seconds
+2025-09-10 10:25:26,383 - INFO - Found processing script at: C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py
+2025-09-10 10:25:29,565 - INFO - Processing subfolder 1/2: 20240821
+2025-09-10 10:25:29,566 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240821
+2025-09-10 10:25:29,566 - INFO - Timeout set to 300 seconds
+2025-09-10 10:27:39,365 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\20240821
+2025-09-10 10:27:39,366 - INFO - Created CSV: 2024-08-21T11_43_11_p21_ccf_all_params_file.csv
+2025-09-10 10:27:39,366 - INFO - Progress: 1/2 completed
+2025-09-10 10:27:39,367 - INFO - Processing subfolder 2/2: p20p21_location_all_params
+2025-09-10 10:27:39,367 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\p20p21_location_all_params
+2025-09-10 10:27:39,367 - INFO - Timeout set to 300 seconds
+2025-09-10 10:27:40,178 - ERROR - Script completed but no CSV output found in C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p20p21\p20p21_location_all_params
+2025-09-10 10:27:40,178 - INFO - Progress: 2/2 completed
+2025-09-10 10:27:40,179 - WARNING - Some subfolders failed to process. Check the log for details.
+2025-09-12 13:52:37,480 - INFO - Starting batch processing
+2025-09-12 13:52:37,481 - INFO - Parent folder: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\script_testing_delete
+2025-09-12 13:52:37,481 - INFO - Output folder: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18
+2025-09-12 13:52:37,482 - INFO - Timeout per subfolder: 300 seconds
+2025-09-12 13:52:37,482 - INFO - Found processing script at: C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py
+2025-09-12 13:52:37,482 - INFO - Output will be saved to: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18
+2025-09-12 13:52:37,485 - WARNING - No subfolders found in: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\script_testing_delete
+2025-09-12 13:53:24,987 - INFO - Starting batch processing
+2025-09-12 13:53:24,987 - INFO - Parent folder: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\script_testing_delete
+2025-09-12 13:53:24,988 - INFO - Output folder: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18
+2025-09-12 13:53:24,988 - INFO - Timeout per subfolder: 300 seconds
+2025-09-12 13:53:24,988 - INFO - Found processing script at: C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py
+2025-09-12 13:53:24,989 - INFO - Output will be saved to: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18
+2025-09-12 13:53:46,925 - INFO - Starting batch processing
+2025-09-12 13:53:46,925 - INFO - Parent folder: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\script_testing_delete
+2025-09-12 13:53:46,925 - INFO - Output folder: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18
+2025-09-12 13:53:46,926 - INFO - Timeout per subfolder: 300 seconds
+2025-09-12 13:53:46,926 - INFO - Found processing script at: C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py
+2025-09-12 13:53:46,926 - INFO - Output will be saved to: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18
+2025-09-12 13:53:48,472 - INFO - Processing subfolder 1/1: New folder
+2025-09-12 13:53:48,484 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\script_testing_delete\New folder C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\New folder
+2025-09-12 13:53:48,484 - INFO - Timeout set to 300 seconds
+2025-09-12 13:55:10,276 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\script_testing_delete\New folder
+2025-09-12 13:55:10,276 - INFO - Created CSV: 2024-04-29T11_26_47_p17_ccf_all_params_file.csv
+2025-09-12 13:55:10,277 - INFO - Progress: 1/1 completed
+2025-09-12 13:55:10,277 - INFO - All selected subfolders processed successfully!
+2025-09-12 14:05:36,623 - INFO - Starting batch processing
+2025-09-12 14:05:36,624 - INFO - Parent folder: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\script_testing_delete
+2025-09-12 14:05:36,624 - INFO - Output folder: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18
+2025-09-12 14:05:36,625 - INFO - Timeout per subfolder: 300 seconds
+2025-09-12 14:05:36,625 - INFO - Found processing script at: C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py
+2025-09-12 14:05:36,626 - INFO - Output will be saved to: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18
+2025-09-12 14:06:54,877 - INFO - Processing subfolder 1/1: New folder
+2025-09-12 14:06:54,877 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\script_testing_delete\New folder C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\New folder
+2025-09-12 14:06:54,878 - INFO - Timeout set to 300 seconds
+2025-09-12 14:08:37,319 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\script_testing_delete\New folder
+2025-09-12 14:08:37,320 - INFO - Created CSV: 2024-04-29T11_26_47_p17_ccf_all_params_file.csv
+2025-09-12 14:08:37,321 - INFO - Progress: 1/1 completed
+2025-09-12 14:08:37,322 - INFO - All selected subfolders processed successfully!
+2025-09-12 14:38:34,090 - INFO - Starting batch processing
+2025-09-12 14:38:34,091 - INFO - Parent folder: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\script_testing_delete
+2025-09-12 14:38:34,092 - INFO - Output folder: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18
+2025-09-12 14:38:34,092 - INFO - Timeout per subfolder: 300 seconds
+2025-09-12 14:38:34,092 - INFO - Found processing script at: C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py
+2025-09-12 14:38:34,093 - INFO - Output will be saved to: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18
+2025-09-12 14:38:40,230 - INFO - Processing subfolder 1/1: New folder
+2025-09-12 14:38:40,231 - INFO - Running command: C:\Users\shettigarn\Anaconda3\envs\animal_tracking_env\python.exe C:\Users\shettigarn\Desktop\git\labwide_modulo-data\src\generate_all_params_2025.py C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\script_testing_delete\New folder C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18
+2025-09-12 14:38:40,231 - INFO - Timeout set to 300 seconds
+2025-09-12 14:39:39,128 - INFO - Successfully processed: C:\Users\shettigarn\Desktop\git\ns_sandbox\data\p16p17p18\script_testing_delete\New folder
+2025-09-12 14:39:39,128 - INFO - Created CSV: 2024-04-29T11_26_47_p17_ccf_all_params_file.csv
+2025-09-12 14:39:39,128 - INFO - Progress: 1/1 completed
+2025-09-12 14:39:39,129 - INFO - All selected subfolders processed successfully!

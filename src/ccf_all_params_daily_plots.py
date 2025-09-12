@@ -12,16 +12,31 @@ from matplotlib.lines import Line2D
 
 # --- Function Definitions ---
 
+def check_plots_exist(file_base, output_folder):
+    """Check if all 4 plots already exist for a given file"""
+    plot_types = ['kdeplot', 'trajplot', 'lossplot', 'release_tile_entry']
+
+    for plot_type in plot_types:
+        plot_path = os.path.join(output_folder, f'{plot_type}_{file_base}.png')
+        if not os.path.exists(plot_path):
+            return False
+    return True
+
 def load_ccf_data(file, foldername):
-    df = pd.read_csv(os.path.join(foldername, file))
-    file_base = os.path.basename(file)
+    df = pd.read_csv(os.path.join(foldername, file), low_memory=False)
+    file_base = os.path.splitext(os.path.basename(file))[0]  # Remove .csv extension
     ccf_locations = ast.literal_eval(df.loc[0, 'ccf_locations'])
     x, y = ccf_locations[::2], ccf_locations[1::2]
     return df, file_base, x, y
 
 def plot_kde(df, x, y, file_base, no_of_crickets, foldername):
     plt.figure(figsize=(10, 10))
-    df1 = df[df['dlc_node'] == 1]
+
+    # Check if dlc_node column exists and has any valid values
+    if 'dlc_node' in df.columns and df['dlc_node'].notna().any():
+        df1 = df[df['dlc_node'] == 1]
+    else:
+        df1 = df.copy()  # Use all data if dlc_node is invalid
     sns.kdeplot(data=df1, x='ccf_zaber_x', y='ccf_zaber_y', fill=True, cmap="Greys", thresh=0.01, levels=1000)
     plt.scatter(x, y, marker='H', s=1000, color='black', edgecolors='black', alpha=0.2)
     for i, (xi, yi) in enumerate(zip(x, y), 1):
@@ -30,7 +45,6 @@ def plot_kde(df, x, y, file_base, no_of_crickets, foldername):
     plt.title(f"{file_base}_{no_of_crickets}\n{extra_info}")
     save_path = os.path.join(foldername, f'kdeplot_{file_base}.png')
     plt.savefig(save_path, bbox_inches='tight', dpi=300)
-    #plt.show()
     plt.close()
 
 def plot_trajectory(df, x, y, file_base, no_of_crickets, foldername):
@@ -49,7 +63,6 @@ def plot_trajectory(df, x, y, file_base, no_of_crickets, foldername):
     plt.title(f"{file_base}_{no_of_crickets}\n{extra_info}")
     save_path = os.path.join(foldername, f'trajplot_{file_base}.png')
     plt.savefig(save_path, bbox_inches='tight', dpi=300)
-    #plt.show()
     plt.close()
 
 def analyze_loss(df):
@@ -102,7 +115,6 @@ def plot_loss(df, x, y, file_base, no_of_crickets, foldername):
     plt.title(f"{file_base}_{no_of_crickets}\n{extra_info}")
     save_path = os.path.join(foldername, f'lossplot_{file_base}.png')
     plt.savefig(save_path, bbox_inches='tight', dpi=300)
-    #plt.show()
     plt.close()
 
 def plot_release_tile_entry(df, trigger_times, file_base, foldername, ccf_locations_x, ccf_locations_y, title="Release Tile Entry Plot", threshold=5500):
@@ -171,34 +183,80 @@ def plot_release_tile_entry(df, trigger_times, file_base, foldername, ccf_locati
 
     save_path = os.path.join(foldername, f'release_tile_entry_{file_base}.png')
     plt.savefig(save_path, bbox_inches='tight', dpi=300)
-    #plt.show()
     plt.close()
 
 # --- Main Script Execution ---
 
 def main():
-    parser = argparse.ArgumentParser(description="Process ccf_all_params CSV files.")
+    parser = argparse.ArgumentParser(description="Process ccf_all_params CSV files with smart plot generation.")
     parser.add_argument("input_folder", help="Path to the input folder containing the CSV files")
     parser.add_argument("--output_folder", default=None, help="Optional path to the output folder (defaults to input folder)")
+    parser.add_argument("--force", action="store_true", help="Force regenerate all plots even if they already exist")
     args = parser.parse_args()
 
     infolder = args.input_folder
     outfolder = args.output_folder or infolder
 
+    # Find all CSV files containing "ccf_all_params"
     files = [f for f in os.listdir(infolder) if "ccf_all_params" in f and f.lower().endswith('.csv')]
 
-    for file in files:
-        df, file_base, x, y = load_ccf_data(file, infolder)
-        print("plotting for {}".format(file_base))
-        trigger = np.unique(df.trigger.dropna())
-        trigger_times = [0] + [float(df.relative_time[df.trigger == t].iloc[0]) for t in trigger]
-        no_of_crickets = len(trigger)
+    if not files:
+        print("No ccf_all_params CSV files found in the input folder.")
+        return
 
-        plot_kde(df, x, y, file_base, no_of_crickets, outfolder)
-        plot_trajectory(df, x, y, file_base, no_of_crickets, outfolder)
-        df = analyze_loss(df)
-        plot_loss(df, x, y, file_base, no_of_crickets, outfolder)
-        plot_release_tile_entry(df, trigger_times, file_base, outfolder, x, y)
+    print(f"Found {len(files)} ccf_all_params files to process")
+
+    processed_count = 0
+    skipped_count = 0
+
+    for file in files:
+        # Get file base name (without extension)
+        file_base_no_ext = os.path.splitext(file)[0]
+
+        # Check if plots already exist (unless force flag is used)
+        if not args.force and check_plots_exist(file_base_no_ext, outfolder):
+            print(f"⏭️  Skipping {file_base_no_ext} - all plots already exist")
+            skipped_count += 1
+            continue
+
+        try:
+            # Load data and generate plots
+            df, file_base, x, y = load_ccf_data(file, infolder)
+            print(f"🔄 Processing {file_base_no_ext}...")
+
+            trigger = np.unique(df.trigger.dropna())
+            trigger_times = [0] + [float(df.relative_time[df.trigger == t].iloc[0]) for t in trigger]
+            no_of_crickets = len(trigger)
+
+            # Generate all plots
+            print(f"   📊 Generating KDE plot...")
+            plot_kde(df, x, y, file_base_no_ext, no_of_crickets, outfolder)
+
+            print(f"   📈 Generating trajectory plot...")
+            plot_trajectory(df, x, y, file_base_no_ext, no_of_crickets, outfolder)
+
+            print(f"   📉 Generating loss plot...")
+            df = analyze_loss(df)
+            plot_loss(df, x, y, file_base_no_ext, no_of_crickets, outfolder)
+
+            print(f"   📋 Generating release tile entry plot...")
+            plot_release_tile_entry(df, trigger_times, file_base_no_ext, outfolder, x, y)
+
+            print(f"✅ Completed {file_base_no_ext}")
+            processed_count += 1
+
+        except Exception as e:
+            print(f"❌ Error processing {file_base_no_ext}: {str(e)}")
+            continue
+
+    # Summary
+    print(f"\n📈 Processing Summary:")
+    print(f"   • Files processed: {processed_count}")
+    print(f"   • Files skipped: {skipped_count}")
+    print(f"   • Total files: {len(files)}")
+
+    if not args.force and skipped_count > 0:
+        print(f"\n💡 Tip: Use --force flag to regenerate all plots")
 
 if __name__ == "__main__":
     main()

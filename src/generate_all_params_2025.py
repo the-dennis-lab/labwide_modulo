@@ -506,6 +506,8 @@ def make_ccf_adjusted_all_params(zaber_dlc_file: pd.DataFrame, location_input_fi
     # Extract tile names from location input file
     tile_name = df.iloc[0].tolist()
 
+
+
     # Build session_locs DataFrame
     session_locs = pd.DataFrame({
         'tile_name': tile_name,
@@ -582,7 +584,8 @@ def process_data(folder_path: str, output_folder: str = None) -> None:
     # Set default output folder if not provided
     if output_folder is None:
         output_folder = folder_path
-        os.makedirs(output_folder, exist_ok=True)
+    #ensure output_folder exists
+    os.makedirs(output_folder, exist_ok=True)
 
         # Find all relevant files in the folder
     file_categories = {
@@ -627,7 +630,28 @@ def process_data(folder_path: str, output_folder: str = None) -> None:
             is_rig_info = "rig_info" in info_file
 
             # Read info file
-            info_df = pd.read_csv(info_path, header=None)
+            def read_csv_with_encoding(file_path, header=None):
+                """Try multiple encodings to read CSV file."""
+                encodings = ['utf-8', 'cp1252', 'latin1', 'iso-8859-1', 'utf-8-sig']
+
+                for encoding in encodings:
+                    try:
+                        df = pd.read_csv(file_path, header=header, encoding=encoding)
+                        if not df.empty:
+                            return df
+                    except (UnicodeDecodeError, pd.errors.EmptyDataError, pd.errors.ParserError):
+                        continue
+
+                # Return empty DataFrame if all encodings fail
+                logger.warning(f"Could not read {os.path.basename(file_path)} - file may be empty")
+                return pd.DataFrame()
+
+            # Use the improved function
+            info_df = read_csv_with_encoding(info_path)
+
+            if info_df is None or info_df.empty:
+                logger.error(f"Skipping {info_file}: file is empty or unreadable")
+                continue
 
             # Extract animal name
             if is_rig_info:
@@ -688,13 +712,27 @@ def process_data(folder_path: str, output_folder: str = None) -> None:
                         zaber_dlc_file = process_cam_frame_file(cam_frame_file, zaber_dlc_file)
 
                     # Process chirp file if available
+
                     chirp_filename, good_idx = find_matching_file(
                         file_categories['chirps'], file_timestring)
 
                     if good_idx != -1 and chirp_filename:
-                        chirp_file = pd.read_csv(
+                        chirp_file = read_csv_with_encoding(
                             os.path.join(folder_path, chirp_filename[0]), header=None)
-                        zaber_dlc_file = process_chirp_file(chirp_file, zaber_dlc_file)
+
+                        # Check if chirp file has data
+                        if chirp_file.empty or len(chirp_file) == 0:
+                            logger.info(f"Chirp file {chirp_filename[0]} is empty. Initializing empty chirp columns.")
+                            zaber_dlc_file['chirped'] = np.nan
+                            zaber_dlc_file['chirp_bouts'] = np.nan
+                            zaber_dlc_file['chirp_loc'] = np.nan
+                        else:
+                            zaber_dlc_file = process_chirp_file(chirp_file, zaber_dlc_file)
+                    else:
+                        logger.info("No chirp file found. Initializing empty chirp columns.")
+                        zaber_dlc_file['chirped'] = np.nan
+                        zaber_dlc_file['chirp_bouts'] = np.nan
+                        zaber_dlc_file['chirp_loc'] = np.nan
 
                     # Process release trigger file if available
                     release_trigger_filename, good_idx = find_matching_file(
@@ -712,7 +750,7 @@ def process_data(folder_path: str, output_folder: str = None) -> None:
 
                     # Process DLC nodes file if available
 
-                    
+
                     dlc_nodes_filename, good_idx = find_matching_file(
                         file_categories['dlc_nodes'], file_timestring)
 
@@ -742,6 +780,8 @@ def process_data(folder_path: str, output_folder: str = None) -> None:
                     if good_idx != -1 and location_input_filename:
                         location_input_file = pd.read_csv(
                             os.path.join(folder_path, location_input_filename[0]), header=None)
+
+
                         zaber_dlc_file = make_ccf_adjusted_all_params(zaber_dlc_file = zaber_dlc_file, location_input_file = location_input_file, ccf_file='../data/zaber_ccf.csv')
 
                     # Save results

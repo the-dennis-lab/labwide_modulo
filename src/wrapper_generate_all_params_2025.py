@@ -169,7 +169,7 @@ def show_processing_summary(parent_folder: str, output_folder: Optional[str],
         for i, folder in enumerate(folders_without_csv[:10], 1):  # Show first 10
             folder_name = os.path.basename(folder)
             if output_folder:
-                output_path = os.path.join(output_folder, folder_name)
+                output_path = output_folder
             else:
                 output_path = folder
             print(f"   {i:2d}. {folder_name} -> {output_path}")
@@ -267,7 +267,7 @@ def should_process_folder(folder_path: str, existing_files: List[str], preferenc
     return False
 
 
-def run_processing_script(script_path: str, subfolder_path: str, output_folder: Optional[str] = None, timeout: int = 300) -> bool:
+def run_processing_script(script_path: str, subfolder_path: str, output_folder: Optional[str] = None, timeout: int = 300) -> Tuple[bool, str]:
     """
     Run the processing script on a single subfolder with real-time output.
 
@@ -278,19 +278,18 @@ def run_processing_script(script_path: str, subfolder_path: str, output_folder: 
         timeout: Timeout in seconds (default: 5 minutes)
 
     Returns:
-        True if processing was successful, False otherwise
+        Tuple of (success: bool, error_message: str)
     """
     try:
         # Prepare command
         cmd = [sys.executable, script_path, subfolder_path]
 
-        # Add output folder if specified
+        # Determine where output should be saved
         if output_folder:
-            # Create subfolder-specific output directory
-            subfolder_name = os.path.basename(subfolder_path)
-            specific_output = os.path.join(output_folder, subfolder_name)
-            os.makedirs(specific_output, exist_ok=True)
-            cmd.append(specific_output)
+            cmd.append(output_folder)
+            expected_output_dir = output_folder
+        else:
+            expected_output_dir = subfolder_path
 
         logger.info(f"Running command: {' '.join(cmd)}")
         logger.info(f"Timeout set to {timeout} seconds")
@@ -305,8 +304,10 @@ def run_processing_script(script_path: str, subfolder_path: str, output_folder: 
             universal_newlines=True
         )
 
-        # Stream output in real-time
+        # Stream output in real-time and capture error info
         output_lines = []
+        error_info = []
+
         try:
             while True:
                 output = process.stdout.readline()
@@ -314,29 +315,45 @@ def run_processing_script(script_path: str, subfolder_path: str, output_folder: 
                     break
                 if output:
                     output_line = output.strip()
-                    print(f"    {output_line}")  # Print to console with indentation
-                    #logger.info(f"Script: {output_line}")  # Log it too
+                    print(f"    {output_line}")
                     output_lines.append(output_line)
+
+                    # Capture error information
+                    if "ERROR" in output_line or "Error" in output_line:
+                        error_info.append(output_line)
 
             # Wait for process to complete with timeout
             return_code = process.wait(timeout=timeout)
 
             if return_code == 0:
-                logger.info(f"Successfully processed: {subfolder_path}")
-                return True
+                # Check if CSV file was actually created
+                csv_files = glob.glob(os.path.join(expected_output_dir, "*ccf_all_params_file.csv"))
+                if csv_files:
+                    logger.info(f"Successfully processed: {subfolder_path}")
+                    logger.info(f"Created CSV: {os.path.basename(csv_files[0])}")
+                    return True, ""
+                else:
+                    error_msg = f"Script completed but no CSV output found in {expected_output_dir}"
+                    logger.error(error_msg)
+                    return False, error_msg
             else:
-                logger.error(f"Script failed with return code {return_code}: {subfolder_path}")
-                return False
+                error_msg = f"Script failed with return code {return_code}"
+                if error_info:
+                    error_msg += f". Errors: {'; '.join(error_info[:3])}"  # Show first 3 errors
+                logger.error(f"{error_msg}: {subfolder_path}")
+                return False, error_msg
 
         except subprocess.TimeoutExpired:
-            logger.error(f"Timeout ({timeout}s) expired for {subfolder_path}")
-            process.kill()  # Kill the process
-            process.wait()  # Wait for cleanup
-            return False
+            error_msg = f"Timeout ({timeout}s) expired"
+            logger.error(f"{error_msg} for {subfolder_path}")
+            process.kill()
+            process.wait()
+            return False, error_msg
 
     except Exception as e:
-        logger.error(f"Unexpected error processing {subfolder_path}: {e}")
-        return False
+        error_msg = f"Unexpected error: {str(e)}"
+        logger.error(f"{error_msg} processing {subfolder_path}")
+        return False, error_msg
 
 
 def batch_process(parent_folder: str, output_folder: Optional[str] = None, timeout: int = 300) -> None:
@@ -411,7 +428,7 @@ def batch_process(parent_folder: str, output_folder: Optional[str] = None, timeo
         subfolder_name = os.path.basename(subfolder)
         logger.info(f"Processing subfolder {i}/{len(folders_to_process)}: {subfolder_name}")
 
-        success = run_processing_script(script_path, subfolder, output_folder, timeout)
+        success, error_message = run_processing_script(script_path, subfolder, output_folder, timeout)
 
         if success:
             successful_count += 1

@@ -422,11 +422,9 @@ def process_release_trigger_file(release_trigger_file: pd.DataFrame, zaber_dlc_f
 def process_dlc_nodes_file(dlc_nodes_file: pd.DataFrame, zaber_dlc_file: pd.DataFrame) -> pd.DataFrame:
     """
     Merge DLC node tracking data with main tracking data, flagging frames with valid node detections.
-
     Args:
         dlc_nodes_file: DataFrame with raw DLC nodes data
         zaber_dlc_file: DataFrame with Zaber DLC tracking data
-
     Returns:
         Updated zaber_dlc_file with DLC node tracking information
     """
@@ -440,7 +438,7 @@ def process_dlc_nodes_file(dlc_nodes_file: pd.DataFrame, zaber_dlc_file: pd.Data
         zaber_dlc_file['dlc_node'] = np.nan
 
         # Set column names
-        columns = [f'point{i}' for i in range(1, 15)] + ['timestamp']
+        columns = [f'point{i}' for i in range(1, 15)] + ['last_column']
         dlc_nodes_file.columns = columns[:len(dlc_nodes_file.columns)]
 
         # Check for valid tracking data
@@ -457,15 +455,39 @@ def process_dlc_nodes_file(dlc_nodes_file: pd.DataFrame, zaber_dlc_file: pd.Data
         # Filter to keep only valid tracking data
         dlc_nodes_file = dlc_nodes_file[dlc_nodes_file['dlc_node'] == 1].reset_index(drop=True)
 
-        # Process timestamps
-        dlc_nodes_file = bonsai_timestamp_split(dlc_nodes_file)
-        dlc_nodes_file = absolute_time(dlc_nodes_file)
-        dlc_nodes_file["relative_time"] = dlc_nodes_file.absolute_time - zaber_dlc_file.absolute_time.iloc[0]
+        # Determine if last column is timestamp or frame_no
+        # Check if the first non-null value looks like a timestamp (contains 'T' or '-')
+        # or if it's numeric (frame_no)
+        sample_value = str(dlc_nodes_file['last_column'].iloc[0])
 
-        # Add dlc_node data to zaber file
-        for i in range(len(dlc_nodes_file)):
-            index = np.argmin(np.abs(zaber_dlc_file['relative_time'] - dlc_nodes_file.relative_time.iloc[i]))
-            zaber_dlc_file.loc[index, 'dlc_node'] = 1
+        if 'T' in sample_value or (sample_value.count('-') >= 2):
+            # It's a timestamp
+            dlc_nodes_file.rename(columns={'last_column': 'timestamp'}, inplace=True)
+
+            # Process timestamps
+            dlc_nodes_file = bonsai_timestamp_split(dlc_nodes_file)
+            dlc_nodes_file = absolute_time(dlc_nodes_file)
+            dlc_nodes_file["relative_time"] = dlc_nodes_file.absolute_time - zaber_dlc_file.absolute_time.iloc[0]
+
+            # Add dlc_node data to zaber file based on closest time match
+            for i in range(len(dlc_nodes_file)):
+                index = np.argmin(np.abs(zaber_dlc_file['relative_time'] - dlc_nodes_file.relative_time.iloc[i]))
+                zaber_dlc_file.loc[index, 'dlc_node'] = 1
+        else:
+            # It's a frame_no
+            dlc_nodes_file.rename(columns={'last_column': 'frame_no'}, inplace=True)
+            dlc_nodes_file['frame_no'] = dlc_nodes_file['frame_no'].astype(int)
+
+            # Ensure zaber_dlc_file has frame_no column
+            if 'frame_no' not in zaber_dlc_file.columns:
+                logger.warning("zaber_dlc_file does not have a 'frame_no' column. Cannot merge by frame number.")
+                return zaber_dlc_file
+
+            # Add dlc_node data to zaber file based on frame_no match
+            for frame_num in dlc_nodes_file['frame_no']:
+                matching_indices = zaber_dlc_file[zaber_dlc_file['frame_no'] == frame_num].index
+                if len(matching_indices) > 0:
+                    zaber_dlc_file.loc[matching_indices, 'dlc_node'] = 1
 
         return zaber_dlc_file
 
@@ -605,7 +627,7 @@ def process_data(folder_path: str, output_folder: str = None) -> None:
             file_categories['zaber_dlc'].append(file)
         elif "chirps" in file:
             file_categories['chirps'].append(file)
-        elif "DLC_all" in file:
+        elif "DLC_all" in file or "dlc_all" in file:
             file_categories['dlc_nodes'].append(file)
         elif "release_trigger" in file:
             file_categories['release_trigger'].append(file)
@@ -668,10 +690,32 @@ def process_data(folder_path: str, output_folder: str = None) -> None:
                 filename_prefix = 9  # Length of "rig_info_" prefix
             else:
                 # Handle modulo_info file
-                info_df.drop(columns=info_df.columns[5:39], inplace=True, errors='ignore')
-                info_df.columns = ['model_confidence', '1', '2', '3', '4', 'zaber_radius',
-                                  'loudness_value', '41', '42', 'animal_name', 'experiment_type',
-                                  'timestamp']
+                # Detect format based on number of columns
+                num_cols = len(info_df.columns)
+
+                if num_cols == 47:  # New format with path_confidence column
+                    # Drop coordinate columns (5:39)
+                    info_df.drop(columns=info_df.columns[5:39], inplace=True, errors='ignore')
+                    # Assign column names for new format
+                    info_df.columns = ['model_confidence', '1', '2', '3', '4', 'zaber_radius',
+                                      'loudness_value', '41', '42', 'path_confidence', 'animal_name',
+                                      'experiment_type', 'timestamp']
+                elif num_cols == 46:  # Old format without path_confidence column
+                    # Drop coordinate columns (5:39)
+                    info_df.drop(columns=info_df.columns[5:39], inplace=True, errors='ignore')
+                    # Assign column names for old format
+                    info_df.columns = ['model_confidence', '1', '2', '3', '4', 'zaber_radius',
+                                      'loudness_value', '41', '42', 'animal_name', 'experiment_type',
+                                      'timestamp']
+                    # Add the path_confidence column with NaN for old files
+                    info_df['path_confidence'] = np.nan
+                    # Reorder columns to match new format
+                    info_df = info_df[['model_confidence', '1', '2', '3', '4', 'zaber_radius',
+                                       'loudness_value', '41', '42', 'path_confidence', 'animal_name',
+                                       'experiment_type', 'timestamp']]
+                else:
+                    raise ValueError(f"Unexpected number of columns in modulo_info file: {num_cols}. Expected 46 or 47.")
+
                 filename_prefix = 12  # Length of "modulo_info_" prefix
 
             animal_name = info_df.animal_name.iloc[0].lower()

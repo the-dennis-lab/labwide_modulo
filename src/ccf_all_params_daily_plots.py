@@ -117,7 +117,7 @@ def plot_loss(df, x, y, file_base, no_of_crickets, foldername):
     plt.savefig(save_path, bbox_inches='tight', dpi=300)
     plt.close()
 
-def plot_release_tile_entry(df, trigger_times, file_base, foldername, ccf_locations_x, ccf_locations_y, title="Release Tile Entry Plot", threshold=5500):
+def plot_release_tile_entry(df, trigger_times, file_base, foldername, ccf_locations_x, ccf_locations_y, title="Release Tile Entry Plot", threshold=6500):
     # --- Add distance and inside-tile indicators ---
     if len(ccf_locations_x) != 16 or len(ccf_locations_y) != 16:
         raise ValueError("ccf_locations_x and ccf_locations_y must each have 16 elements.")
